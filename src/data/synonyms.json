@@ -1,0 +1,462 @@
+[
+  {
+    "source": "penting",
+    "replacements": ["utama", "krusial", "esensial"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "besar",
+    "replacements": ["luas", "signifikan", "cukup besar"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "besar sekali",
+    "replacements": ["sangat besar", "amat luas", "sangat signifikan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "kecil",
+    "replacements": ["mungil", "terbatas", "relatif kecil"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "baru",
+    "replacements": ["terbaru", "mutakhir", "anyar"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "lama",
+    "replacements": ["terdahulu", "sebelumnya", "sudah lama"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "membantu",
+    "replacements": ["menolong", "mendukung", "mempermudah"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "memudahkan",
+    "replacements": ["membantu", "menyederhanakan", "membuat lebih mudah"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "mempercepat",
+    "replacements": ["mengakselerasi", "mendorong percepatan", "membuat lebih cepat"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "cepat",
+    "replacements": ["lekas", "segera", "dengan cepat"],
+    "modes": ["formal", "santai"]
+  },
+  {
+    "source": "lambat",
+    "replacements": ["pelan", "kurang cepat", "memerlukan waktu lebih lama"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "mengubah",
+    "replacements": ["mengganti", "memodifikasi", "menyesuaikan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menghasilkan",
+    "replacements": ["menciptakan", "mewujudkan", "memberikan hasil"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "meningkatkan",
+    "replacements": ["memperbaiki", "mengoptimalkan", "mendorong peningkatan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menurunkan",
+    "replacements": ["mengurangi", "menekan", "membuat lebih rendah"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "mengurangi",
+    "replacements": ["menekan", "meminimalkan", "menurunkan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "menambah",
+    "replacements": ["meningkatkan", "melengkapi", "memperbanyak"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "menjaga",
+    "replacements": ["memelihara", "mempertahankan", "merawat"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "membangun",
+    "replacements": ["mengembangkan", "menyusun", "menciptakan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "mengembangkan",
+    "replacements": ["membangun", "menyempurnakan", "memajukan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menyusun",
+    "replacements": ["merancang", "mengatur", "menata"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "merancang",
+    "replacements": ["mendesain", "menyusun", "merencanakan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menyediakan",
+    "replacements": ["memberikan", "menawarkan", "menghadirkan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "memberikan",
+    "replacements": ["menyediakan", "menawarkan", "menghadirkan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "menerapkan",
+    "replacements": ["mengimplementasikan", "mengaplikasikan", "memberlakukan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menggunakan",
+    "replacements": ["memakai", "memanfaatkan", "mengaplikasikan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "memanfaatkan",
+    "replacements": ["menggunakan", "mendayagunakan", "memakai"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "memastikan",
+    "replacements": ["menjamin", "meyakinkan", "menegaskan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menjelaskan",
+    "replacements": ["menerangkan", "menguraikan", "memaparkan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menunjukkan",
+    "replacements": ["memperlihatkan", "mengindikasikan", "menampilkan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "menentukan",
+    "replacements": ["menetapkan", "memutuskan", "mengidentifikasi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "mencari",
+    "replacements": ["menelusuri", "mengupayakan", "mencoba menemukan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "menemukan",
+    "replacements": ["mendapati", "mengidentifikasi", "menjumpai"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "memeriksa",
+    "replacements": ["mengecek", "menelaah", "mengkaji"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "menguji",
+    "replacements": ["mengetes", "menilai", "melakukan pengujian"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "memilih",
+    "replacements": ["menentukan", "menetapkan", "memutuskan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "membuat",
+    "replacements": ["menjadikan", "menyebabkan", "bikin"],
+    "modes": ["formal", "santai"]
+  },
+  {
+    "source": "mendorong",
+    "replacements": ["memacu", "merangsang", "menggerakkan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "mencapai",
+    "replacements": ["meraih", "memperoleh", "menggapai"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "membutuhkan",
+    "replacements": ["memerlukan", "menghendaki", "butuh"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "banyak",
+    "replacements": ["beragam", "sejumlah besar", "cukup banyak"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sedikit",
+    "replacements": ["sejumlah kecil", "tidak banyak", "terbatas"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "baik",
+    "replacements": ["bagus", "positif", "optimal"],
+    "modes": ["formal", "santai", "akademik"]
+  },
+  {
+    "source": "buruk",
+    "replacements": ["kurang baik", "negatif", "tidak ideal"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "tepat",
+    "replacements": ["akurat", "sesuai", "presisi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "jelas",
+    "replacements": ["gamblang", "terang", "mudah dipahami"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "rumit",
+    "replacements": ["kompleks", "sulit", "cukup pelik"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "mudah",
+    "replacements": ["sederhana", "ringan", "gampang"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sulit",
+    "replacements": ["sukar", "rumit", "menantang"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "efektif",
+    "replacements": ["ampuh", "berdaya guna", "berhasil guna"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "efisien",
+    "replacements": ["hemat", "optimal", "lebih ringkas"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "stabil",
+    "replacements": ["konsisten", "mantap", "tetap terjaga"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "aman",
+    "replacements": ["terlindungi", "terjaga", "tidak berisiko"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "rawan",
+    "replacements": ["rentan", "berisiko", "mudah terdampak"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "penting sekali",
+    "replacements": ["sangat penting", "amat krusial", "memiliki urgensi tinggi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "masalah",
+    "replacements": ["kendala", "persoalan", "hambatan"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "tantangan",
+    "replacements": ["kendala", "hambatan", "rintangan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "solusi",
+    "replacements": ["jalan keluar", "pendekatan", "pemecahan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "hasil",
+    "replacements": ["luaran", "capaian", "output"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "tujuan",
+    "replacements": ["sasaran", "maksud", "target"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "cara",
+    "replacements": ["metode", "pendekatan", "strategi"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "langkah",
+    "replacements": ["tahap", "proses", "urutan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "data",
+    "replacements": ["informasi", "kumpulan data", "bahan data"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "informasi",
+    "replacements": ["data", "keterangan", "penjelasan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sistem",
+    "replacements": ["platform", "mekanisme", "susunan sistem"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "fitur",
+    "replacements": ["fungsi", "kapabilitas", "kemampuan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "pengguna",
+    "replacements": ["pemakai", "user", "pihak pengguna"],
+    "modes": ["formal", "santai", "akademik"]
+  },
+  {
+    "source": "pelanggan",
+    "replacements": ["konsumen", "klien", "pembeli"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "tim",
+    "replacements": ["kelompok", "anggota tim", "unit kerja"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "perusahaan",
+    "replacements": ["organisasi", "badan usaha", "instansi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "penelitian",
+    "replacements": ["riset", "kajian", "studi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "analisis",
+    "replacements": ["kajian", "penelaahan", "evaluasi"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "evaluasi",
+    "replacements": ["penilaian", "tinjauan", "review"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "proses",
+    "replacements": ["tahapan", "alur", "mekanisme"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "metode",
+    "replacements": ["cara", "pendekatan", "teknik"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "strategi",
+    "replacements": ["pendekatan", "rencana", "taktik"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "oleh karena itu",
+    "replacements": ["maka dari itu", "karena itu", "dengan alasan tersebut"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "dengan demikian",
+    "replacements": ["sehingga", "oleh sebab itu", "akibatnya"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "pada dasarnya",
+    "replacements": ["secara umum", "pada prinsipnya", "intinya"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "di sisi lain",
+    "replacements": ["sementara itu", "pada sisi yang lain", "sebaliknya"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "misalnya",
+    "replacements": ["sebagai contoh", "contohnya", "contoh konkretnya"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "selain itu",
+    "replacements": ["di samping itu", "lebih lanjut", "tambahan pula"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "agar",
+    "replacements": ["supaya", "untuk memastikan", "demi"],
+    "modes": ["formal", "santai"]
+  },
+  {
+    "source": "tetapi",
+    "replacements": ["namun", "akan tetapi", "meskipun begitu"],
+    "modes": ["formal", "akademik"]
+  },
+  {
+    "source": "karena",
+    "replacements": ["sebab", "lantaran", "dikarenakan"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sebelum",
+    "replacements": ["pra", "sebelumnya", "lebih dulu"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sesudah",
+    "replacements": ["setelah itu", "selepas", "setelah"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "hingga",
+    "replacements": ["sampai", "sampai dengan", "hingga akhirnya"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "sangat",
+    "replacements": ["amat", "teramat", "begitu"],
+    "modes": ["formal", "santai"]
+  },
+  {
+    "source": "cukup",
+    "replacements": ["lumayan", "relatif", "memadai"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "langsung",
+    "replacements": ["secara langsung", "tanpa perantara", "seketika"],
+    "modes": ["formal", "akademik", "santai"]
+  },
+  {
+    "source": "akhirnya",
+    "replacements": ["pada akhirnya", "ujungnya", "pada akhir proses"],
+    "modes": ["formal", "akademik", "santai"]
+  }
+]

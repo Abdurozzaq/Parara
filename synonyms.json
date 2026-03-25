@@ -1,0 +1,6467 @@
+[
+  {
+    "source": "(air) susu dibalas dng (air) tuba",
+    "replacements": [
+      "air susu dibalas dng air tuba",
+      "membalas air susu dng air tuba",
+      "campak bunga dibalas dng campak tahi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(bagai) duri dalam daging",
+    "replacements": [
+      "bagai duri dalam daging",
+      "balai dagang",
+      "tangan bagian dalam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(me)rentan hati",
+    "replacements": [
+      "rentan hati",
+      "latihan mental",
+      "menahan hati"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(persetujuan) masih di perawanan",
+    "replacements": [
+      "persetujuan",
+      "persetujuan prinsip",
+      "akta persetujuan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(sbg durian) pangsa menunjukkan bangsa (sbg durian menunjukkan pangsanya)",
+    "replacements": [
+      "bahasa menunjukkan bangsa",
+      "menunjukkan belangnya",
+      "harimau menunjukkan belangnya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(spt) abu di atas tanggul",
+    "replacements": [
+      "tangan di atas",
+      "pers di atas angin",
+      "spt embun di atas daun"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(spt) anjing terpanggang ekor",
+    "replacements": [
+      "spt anjing bercawat ekor",
+      "ekor anjing",
+      "(spt) disalak anjing bertuah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(spt) disalak anjing bertuah",
+    "replacements": [
+      "(spt) pinang dibelah dua",
+      "(spt) anjing terpanggang ekor",
+      "pisang tidak berbuah dua kali"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(spt) pinang dibelah dua",
+    "replacements": [
+      "(spt) disalak anjing bertuah",
+      "(spt) pinang pulang ke tampuknya",
+      "bersanding dua"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(spt) pinang pulang ke tampuknya",
+    "replacements": [
+      "spt ayam pulang ke pautan",
+      "tampuk pinang",
+      "(spt) pinang dibelah dua"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "(ter)tungkus lumus",
+    "replacements": [
+      "kumulus gulung",
+      "tumungkul",
+      "terbungkus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-anda",
+    "replacements": [
+      "anda",
+      "andan",
+      "danda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-el-",
+    "replacements": [
+      "bel-",
+      "embel-embel",
+      "pel-"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-em-",
+    "replacements": [
+      "mem-",
+      "pem-",
+      "arem-arem"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-er-",
+    "replacements": [
+      "ber-",
+      "per-",
+      "ter-"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-hedral",
+    "replacements": [
+      "dihedral",
+      "hemihedral",
+      "-hedron"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-hedron",
+    "replacements": [
+      "trihedron",
+      "-hedral",
+      "heksahedron"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-iah",
+    "replacements": [
+      "biah",
+      "diah",
+      "kiah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-isme",
+    "replacements": [
+      "deisme",
+      "kismet",
+      "ovisme"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-itas",
+    "replacements": [
+      "sitasi",
+      "fitase",
+      "mitasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-kah",
+    "replacements": [
+      "-kan",
+      "kakah",
+      "ahkam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-kan",
+    "replacements": [
+      "-kah",
+      "akan",
+      "ikan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-lah",
+    "replacements": [
+      "alah",
+      "ilah",
+      "labah-labah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-man",
+    "replacements": [
+      "mana-mana",
+      "aman",
+      "iman"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-nda",
+    "replacements": [
+      "anda",
+      "andan",
+      "danda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-nya",
+    "replacements": [
+      "nyai-nyai",
+      "nyah",
+      "nyai"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-sentris",
+    "replacements": [
+      "disentri",
+      "egosentris",
+      "endosentris"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-wan",
+    "replacements": [
+      "awan",
+      "wana",
+      "wande-wande"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-wati",
+    "replacements": [
+      "kawatir",
+      "perwati",
+      "rawatib"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "-wiah",
+    "replacements": [
+      "hawiah",
+      "zawiah",
+      "-iah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": ".gitignore",
+    "replacements": [
+      "gigit",
+      "segitiga",
+      "anorektik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "a.md.",
+    "replacements": [
+      "bmd.",
+      "d.a.",
+      "d.y.a.m."
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "a.n.",
+    "replacements": [
+      "k.n."
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "a.p.",
+    "replacements": [
+      "m.a.p.",
+      "m.p.a.",
+      "s.a.p."
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "a.pkt.",
+    "replacements": [
+      "a.p."
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "a.s.",
+    "replacements": [
+      "s.s.",
+      "s.a.",
+      "s.s.t"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aaji",
+    "replacements": [
+      "ajik",
+      "ajir",
+      "baji"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aaui",
+    "replacements": [
+      "kaupui",
+      "memaui"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aba-aba",
+    "replacements": [
+      "abah-abah",
+      "abal-abal",
+      "abar-abar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaaka",
+    "replacements": [
+      "abaka",
+      "kabak",
+      "babakan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad",
+    "replacements": [
+      "babad",
+      "abadi",
+      "zabad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad al-abīd",
+    "replacements": [
+      "abal-abal",
+      "balabad",
+      "balik adab"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abadi",
+    "replacements": [
+      "abad",
+      "babad",
+      "badi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abadiah",
+    "replacements": [
+      "abadiat",
+      "adiabat",
+      "abadi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abadiat",
+    "replacements": [
+      "adiabat",
+      "adiabatik",
+      "abadiah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad keemasan",
+    "replacements": [
+      "keemasan",
+      "keemas-emasan",
+      "kemasan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad komputer",
+    "replacements": [
+      "komputer",
+      "bahasa komputer",
+      "fail komputer"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad modern",
+    "replacements": [
+      "modern",
+      "bahasa modern",
+      "teater modern"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abad pertengahan",
+    "replacements": [
+      "pertengahan",
+      "bahan pertimbangan",
+      "pertenggangan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abah",
+    "replacements": [
+      "babah",
+      "gabah",
+      "sabah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abah-abah",
+    "replacements": [
+      "abah",
+      "babah",
+      "ambah-ambah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abah-abah kuda",
+    "replacements": [
+      "abah-abah",
+      "abah-abah perahu",
+      "abah-abah tenun"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abah-abah perahu",
+    "replacements": [
+      "abah-abah",
+      "peraba",
+      "perahu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abah-abah tenun",
+    "replacements": [
+      "abah-abah",
+      "abah-abah kuda",
+      "abah-abah perahu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abahui",
+    "replacements": [
+      "abah",
+      "babah",
+      "bahu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abai",
+    "replacements": [
+      "cabai",
+      "gabai",
+      "baba"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaian",
+    "replacements": [
+      "kecabaian",
+      "abai",
+      "aban"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaimana",
+    "replacements": [
+      "bagaimana",
+      "abimana",
+      "kaimana"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaka",
+    "replacements": [
+      "kabak",
+      "abaaka",
+      "babakan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaksial",
+    "replacements": [
+      "baksi",
+      "adaksial",
+      "koaksial"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaktinal",
+    "replacements": [
+      "aktina",
+      "purnabakti",
+      "aktin"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abakus",
+    "replacements": [
+      "akus",
+      "babak",
+      "baku"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abal",
+    "replacements": [
+      "babal",
+      "dabal",
+      "gabal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abal-abal",
+    "replacements": [
+      "abal",
+      "babal",
+      "aba-aba"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abalone",
+    "replacements": [
+      "balon",
+      "tabalong",
+      "balong"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abampere",
+    "replacements": [
+      "ampere",
+      "ampera",
+      "kamper"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aban",
+    "replacements": [
+      "baban",
+      "abang",
+      "babang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abandira",
+    "replacements": [
+      "andir",
+      "raban",
+      "randi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abandonemen",
+    "replacements": [
+      "abonemen",
+      "mendonan",
+      "mendondon"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abang",
+    "replacements": [
+      "babang",
+      "abangan",
+      "cabang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abangan",
+    "replacements": [
+      "abangga",
+      "abang",
+      "babang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abangda",
+    "replacements": [
+      "abang",
+      "babang",
+      "abangan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abangga",
+    "replacements": [
+      "abangan",
+      "bangga",
+      "banggan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abap",
+    "replacements": [
+      "baba",
+      "abad",
+      "abah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abar",
+    "replacements": [
+      "babar",
+      "arbab",
+      "cabar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abar-abar",
+    "replacements": [
+      "abar",
+      "babar",
+      "tabar-tabar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaran",
+    "replacements": [
+      "araban",
+      "babaran",
+      "jabaran"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abar pintu",
+    "replacements": [
+      "antar pinang",
+      "kartu pintar",
+      "pintu putar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abas",
+    "replacements": [
+      "babas",
+      "abbas",
+      "babasu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abas-abas",
+    "replacements": [
+      "abas",
+      "babas",
+      "aba-aba"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abasia",
+    "replacements": [
+      "babesiasis",
+      "abas",
+      "asia"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abat",
+    "replacements": [
+      "babat",
+      "abate",
+      "dabat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abate",
+    "replacements": [
+      "abat",
+      "babat",
+      "telabat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abatis",
+    "replacements": [
+      "batis",
+      "babtis",
+      "nabati"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abatisasi",
+    "replacements": [
+      "abatis",
+      "asabat",
+      "tematisasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abatoar",
+    "replacements": [
+      "abar",
+      "abat",
+      "babar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abau",
+    "replacements": [
+      "cabau",
+      "kabau",
+      "mabau"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abawi",
+    "replacements": [
+      "nabawi",
+      "bawab",
+      "awabau"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abaya",
+    "replacements": [
+      "baya",
+      "bayah",
+      "bayak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abbas",
+    "replacements": [
+      "abas",
+      "babas",
+      "babasu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdas",
+    "replacements": [
+      "sabda",
+      "berabdas",
+      "abas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdi",
+    "replacements": [
+      "abdis",
+      "abdu",
+      "abdikasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdi dalem",
+    "replacements": [
+      "dalem",
+      "padi dalam",
+      "pura dalem"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdikasi",
+    "replacements": [
+      "ikasi",
+      "sikas",
+      "dedikasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdi masyarakat",
+    "replacements": [
+      "masyarakat",
+      "memasyarakat",
+      "hajat masyarakat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdi negara",
+    "replacements": [
+      "ahli negara",
+      "wali negara",
+      "negara"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdis",
+    "replacements": [
+      "abdi",
+      "abdu",
+      "abis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdomen",
+    "replacements": [
+      "domen",
+      "abdomen akut",
+      "mengabdi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdomen akut",
+    "replacements": [
+      "abdomen",
+      "menakut",
+      "pemeriksaan abdomen"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdominal",
+    "replacements": [
+      "perabdominal",
+      "otot abdominal",
+      "dominan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdu",
+    "replacements": [
+      "abdul",
+      "abdi",
+      "abduksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abduksi",
+    "replacements": [
+      "obduksi",
+      "subduksi",
+      "aduksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abduktor",
+    "replacements": [
+      "aduktor",
+      "induktor",
+      "konduktor"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdul",
+    "replacements": [
+      "abdu",
+      "abduksi",
+      "abdusen"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abdusen",
+    "replacements": [
+      "adusen",
+      "abdu",
+      "saraf abdusen"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abece",
+    "replacements": [
+      "becek",
+      "beceng",
+      "cece"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aben",
+    "replacements": [
+      "saben",
+      "ngaben",
+      "aber"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aber",
+    "replacements": [
+      "berabe",
+      "saber",
+      "taber"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aberasi",
+    "replacements": [
+      "berasio",
+      "berabe",
+      "beras"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aberasi cahaya",
+    "replacements": [
+      "berkas cahaya",
+      "adaptasi cahaya",
+      "berahasia"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aberasi kromosom",
+    "replacements": [
+      "berasosiasi",
+      "simpai kromosfer",
+      "berpromosi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abet",
+    "replacements": [
+      "nabet",
+      "rabet",
+      "sabet"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abhibute antarikse",
+    "replacements": [
+      "antariksa",
+      "telemetri antariksa",
+      "antariksawan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abian",
+    "replacements": [
+      "anbia",
+      "biang",
+      "labia"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abib",
+    "replacements": [
+      "habib",
+      "habibi",
+      "tabib"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abibliofobia",
+    "replacements": [
+      "bibliofobia",
+      "iofobia",
+      "agliofobia"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abid",
+    "replacements": [
+      "kabid",
+      "abidin",
+      "abib"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abidin",
+    "replacements": [
+      "abid",
+      "bifidin",
+      "abing"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abilah",
+    "replacements": [
+      "kabilah",
+      "bilah",
+      "labil"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abilah peringgi",
+    "replacements": [
+      "peringgi",
+      "perintah pengadilan",
+      "bilah pemindah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abimana",
+    "replacements": [
+      "abaimana",
+      "mabbim",
+      "wimana"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abing",
+    "replacements": [
+      "dabing",
+      "tabing",
+      "bingi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ab initio",
+    "replacements": [
+      "ab initium",
+      "ornitin",
+      "rinitis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ab initium",
+    "replacements": [
+      "ab initio",
+      "aktinium",
+      "sinsitium"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiogenesis",
+    "replacements": [
+      "biogenesis",
+      "oogenesis",
+      "angiogenesis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiogenik",
+    "replacements": [
+      "biogenik",
+      "miogenik",
+      "piogenik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiosen",
+    "replacements": [
+      "biosekuen",
+      "biosensor",
+      "abioseston"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abioseston",
+    "replacements": [
+      "abiosen",
+      "bioproses",
+      "testosteron"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiosfer",
+    "replacements": [
+      "biosfer",
+      "abrosfer",
+      "ionosfer"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiotik",
+    "replacements": [
+      "biotik",
+      "biotin",
+      "biotit"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiotrofi",
+    "replacements": [
+      "biotrof",
+      "amiotrofi",
+      "biotron"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abis",
+    "replacements": [
+      "habis",
+      "abisal",
+      "acabis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abisal",
+    "replacements": [
+      "abis",
+      "bisa",
+      "sabi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiseka",
+    "replacements": [
+      "abis",
+      "kabisat",
+      "kanabis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abisobentos",
+    "replacements": [
+      "bentos",
+      "zoobentos",
+      "holobentos"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abisopelagik",
+    "replacements": [
+      "mesopelagik",
+      "pelagik",
+      "pelagis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abit",
+    "replacements": [
+      "babit",
+      "dabit",
+      "kabit"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abit partading",
+    "replacements": [
+      "kabinet partai",
+      "bintang pari",
+      "tabing"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abiturien",
+    "replacements": [
+      "bitumen",
+      "debitur",
+      "habitus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abjad",
+    "replacements": [
+      "abjadiah",
+      "berabjad",
+      "mengabjad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abjad fonemis",
+    "replacements": [
+      "abjad fonetis",
+      "ejaan fonemis",
+      "fonemis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abjad fonetis",
+    "replacements": [
+      "abjad fonemis",
+      "ejaan fonetis",
+      "fonetis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abjadiah",
+    "replacements": [
+      "abadiah",
+      "abjad",
+      "hadiah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abjeksi",
+    "replacements": [
+      "jeksi",
+      "injeksi",
+      "eksil"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abklats",
+    "replacements": [
+      "coklat",
+      "diklat",
+      "klabet"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablasi",
+    "replacements": [
+      "bablas",
+      "oblasi",
+      "lasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablasi kateter",
+    "replacements": [
+      "kateterisasi",
+      "laboratorium kateterisasi",
+      "teater klasik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablasi retina",
+    "replacements": [
+      "ablastin",
+      "ablasi",
+      "retina"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablastin",
+    "replacements": [
+      "elastin",
+      "plastin",
+      "ablasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablatif",
+    "replacements": [
+      "latif",
+      "elatif",
+      "kasus ablatif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablatif absolut",
+    "replacements": [
+      "galat absolut",
+      "nilai absolut",
+      "nol absolut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablaut",
+    "replacements": [
+      "laut",
+      "blauk",
+      "labut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ableisme",
+    "replacements": [
+      "deisme",
+      "teisme",
+      "blabitisme"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablepsia",
+    "replacements": [
+      "epilepsi",
+      "akatalepsia",
+      "psikolepsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ablur",
+    "replacements": [
+      "hablur",
+      "blur",
+      "adihablur"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abnon",
+    "replacements": [
+      "abon",
+      "cono",
+      "enon"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abnormal",
+    "replacements": [
+      "normal",
+      "takabnormal",
+      "abnormalitas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abnormalitas",
+    "replacements": [
+      "formalitas",
+      "ortonormalitas",
+      "abnormal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abnormalitas genetis",
+    "replacements": [
+      "abnormalitas",
+      "generalisasi normatif",
+      "menormalisasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abnus",
+    "replacements": [
+      "ibnusabil",
+      "abus",
+      "anus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aboa",
+    "replacements": [
+      "aboi",
+      "abon",
+      "abor"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aboi",
+    "replacements": [
+      "kaboi",
+      "aboa",
+      "abon"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abolisi",
+    "replacements": [
+      "terabolisi",
+      "simbolis",
+      "polisi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abomasum",
+    "replacements": [
+      "kasuma",
+      "sumasi",
+      "kasumat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abon",
+    "replacements": [
+      "abone",
+      "babon",
+      "jabon"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abone",
+    "replacements": [
+      "abon",
+      "babon",
+      "bonen"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abonemen",
+    "replacements": [
+      "berabonemen",
+      "abone",
+      "bonen"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abong-abong",
+    "replacements": [
+      "abon",
+      "ayong-ayong",
+      "bong"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aboospora",
+    "replacements": [
+      "zoospora",
+      "spora",
+      "akrospora"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abor",
+    "replacements": [
+      "cabor",
+      "gabor",
+      "aboral"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aboral",
+    "replacements": [
+      "abor",
+      "bora",
+      "oral"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aborigin",
+    "replacements": [
+      "abor",
+      "perigini",
+      "tamborin"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aborsi",
+    "replacements": [
+      "abor",
+      "cabor",
+      "gabor"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aborsi kriminalis",
+    "replacements": [
+      "kriminalis",
+      "kriminalisasi",
+      "dekriminalisasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aborsi legal",
+    "replacements": [
+      "aborsi",
+      "aborsi medis",
+      "kategori leksikal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aborsi medis",
+    "replacements": [
+      "aborsi",
+      "konversi media",
+      "yurisdiksi medis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortif",
+    "replacements": [
+      "abortiva",
+      "abor",
+      "abortus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortiva",
+    "replacements": [
+      "abortif",
+      "abortus",
+      "abor"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus",
+    "replacements": [
+      "abor",
+      "abortif",
+      "abortiva"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus habitualis",
+    "replacements": [
+      "abortus",
+      "habitus",
+      "dishabituasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus iminens",
+    "replacements": [
+      "abortus insipiens",
+      "abortus",
+      "abortus inkomplet"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus inkomplet",
+    "replacements": [
+      "abortus komplet",
+      "inkomplet",
+      "abortus iminens"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus insipiens",
+    "replacements": [
+      "abortus iminens",
+      "abortus inkomplet",
+      "abortus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus komplet",
+    "replacements": [
+      "abortus inkomplet",
+      "abortus",
+      "komplet"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus provokatus",
+    "replacements": [
+      "provokator",
+      "provokatur",
+      "provokatif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus spontan",
+    "replacements": [
+      "abortus",
+      "spontan",
+      "abortus terancam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abortus terancam",
+    "replacements": [
+      "terancam",
+      "berterus terang",
+      "wawancara tertutup"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abot",
+    "replacements": [
+      "jabot",
+      "sabot",
+      "tabot"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aboya",
+    "replacements": [
+      "boya",
+      "boyak",
+      "boyas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abpar",
+    "replacements": [
+      "parab",
+      "paraban",
+      "parabel"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrab",
+    "replacements": [
+      "abrak",
+      "abrap",
+      "abrar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrak",
+    "replacements": [
+      "labrak",
+      "tabrak",
+      "abrab"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrakadabra",
+    "replacements": [
+      "takadab",
+      "abrak",
+      "radak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrap",
+    "replacements": [
+      "abrab",
+      "abrak",
+      "abrar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrar",
+    "replacements": [
+      "abrab",
+      "arab",
+      "abrak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abras",
+    "replacements": [
+      "abrasi",
+      "abrab",
+      "abrasif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrasi",
+    "replacements": [
+      "abrasif",
+      "abras",
+      "demabrasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrasif",
+    "replacements": [
+      "abrasi",
+      "abras",
+      "demabrasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abreaksi",
+    "replacements": [
+      "reaksi",
+      "bereaksi",
+      "mereaksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrek",
+    "replacements": [
+      "seabrek",
+      "bebrek",
+      "breksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abreviasi",
+    "replacements": [
+      "deviasi",
+      "revisian",
+      "abasia"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abri",
+    "replacements": [
+      "abrin",
+      "abrip",
+      "akabri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrikos",
+    "replacements": [
+      "fabrik",
+      "jabrik",
+      "pabrik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrin",
+    "replacements": [
+      "abri",
+      "abrip",
+      "akabri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrip",
+    "replacements": [
+      "abri",
+      "abripda",
+      "abriptu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abripda",
+    "replacements": [
+      "bripda",
+      "abrip",
+      "abri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abriptu",
+    "replacements": [
+      "briptu",
+      "abrip",
+      "abri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrit-abritan",
+    "replacements": [
+      "aprit-apritan",
+      "iritan",
+      "uritan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrogasi",
+    "replacements": [
+      "gabro",
+      "surogasi",
+      "abrasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrop",
+    "replacements": [
+      "gabro",
+      "abrab",
+      "abri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrosfer",
+    "replacements": [
+      "abiosfer",
+      "heterosfer",
+      "hidrosfer"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abrupsi",
+    "replacements": [
+      "erupsi",
+      "korupsi",
+      "rups"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absah",
+    "replacements": [
+      "sabsab",
+      "sabah",
+      "takabsah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abs bawah",
+    "replacements": [
+      "arus bawah",
+      "bawab",
+      "bawah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absen",
+    "replacements": [
+      "absensi",
+      "absente",
+      "abses"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absensi",
+    "replacements": [
+      "absen",
+      "abstensi",
+      "esensi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absente",
+    "replacements": [
+      "absen",
+      "terabsen",
+      "absenteisme"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absenteisme",
+    "replacements": [
+      "absente",
+      "panteisme",
+      "teisme"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abses",
+    "replacements": [
+      "absen",
+      "obsesi",
+      "absensi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abses kutaneus",
+    "replacements": [
+      "kutaneus",
+      "kaus kutang",
+      "difteri kutaneus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abses selulitis orbita",
+    "replacements": [
+      "antiselulit",
+      "disabilitas sensorik",
+      "selulit"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abses serebri",
+    "replacements": [
+      "korteks serebri",
+      "deserebrasi",
+      "serebral"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absis",
+    "replacements": [
+      "absisi",
+      "gabsi",
+      "isis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absisi",
+    "replacements": [
+      "absis",
+      "gabsi",
+      "isis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absolusi",
+    "replacements": [
+      "solusi",
+      "absolut",
+      "musik absolut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absolut",
+    "replacements": [
+      "seabsolut",
+      "nol absolut",
+      "absolusi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absolutisme",
+    "replacements": [
+      "absolut",
+      "seabsolut",
+      "nol absolut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absonan",
+    "replacements": [
+      "konsonan",
+      "onan",
+      "resonan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorb",
+    "replacements": [
+      "absorbat",
+      "absorben",
+      "mengabsorb"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorbat",
+    "replacements": [
+      "absorb",
+      "absorben",
+      "adsorbat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorben",
+    "replacements": [
+      "absorb",
+      "mengabsorb",
+      "absorbat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorpsi",
+    "replacements": [
+      "malabsorpsi",
+      "terabsorpsi",
+      "mengabsorpsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorpsi aktif",
+    "replacements": [
+      "absorpsi pasif",
+      "absorpsi",
+      "absorptif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorpsiometer",
+    "replacements": [
+      "absorpsiometri",
+      "terabsorpsi",
+      "absorpsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorpsiometri",
+    "replacements": [
+      "absorpsiometer",
+      "sosiometri",
+      "absorpsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorpsi pasif",
+    "replacements": [
+      "absorpsi",
+      "absorpsi aktif",
+      "malabsorpsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorptans",
+    "replacements": [
+      "absorptif",
+      "absorptivitas",
+      "absorpsi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorptif",
+    "replacements": [
+      "adsorptif",
+      "absorptans",
+      "absorptivitas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absorptivitas",
+    "replacements": [
+      "absorptif",
+      "absorptans",
+      "sportivitas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstain",
+    "replacements": [
+      "stain",
+      "keabstainan",
+      "intai"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstensi",
+    "replacements": [
+      "absensi",
+      "stensil",
+      "abstinensi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstinensi",
+    "replacements": [
+      "abstensi",
+      "sindrom abstinensi",
+      "absensi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstrak",
+    "replacements": [
+      "abstraksi",
+      "seabstrak",
+      "berabstraksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstraksi",
+    "replacements": [
+      "berabstraksi",
+      "abstrak",
+      "ekstraksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstraksi dana bank",
+    "replacements": [
+      "abstraksi data",
+      "abstraksi",
+      "berabstraksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstraksi data",
+    "replacements": [
+      "abstraksi",
+      "abstraksi dana bank",
+      "berabstraksi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abstraksionisme",
+    "replacements": [
+      "abstraksi",
+      "berabstraksi",
+      "koneksionisme"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absurd",
+    "replacements": [
+      "seabsurd",
+      "absurdisme",
+      "absurditas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absurdisme",
+    "replacements": [
+      "absurd",
+      "absurditas",
+      "seabsurd"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "absurditas",
+    "replacements": [
+      "absurd",
+      "absurdisme",
+      "seabsurd"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abtar",
+    "replacements": [
+      "mutabar",
+      "tabar-tabar",
+      "tabarak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu-abu",
+    "replacements": [
+      "seabu-abu",
+      "abuk-abuk",
+      "abun-abun"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuan",
+    "replacements": [
+      "habuan",
+      "buan",
+      "buana"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abudaga",
+    "replacements": [
+      "labuda",
+      "daga",
+      "sudagar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuh",
+    "replacements": [
+      "cabuh",
+      "labuh",
+      "mabuh"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuh-abuhan",
+    "replacements": [
+      "abuhan",
+      "tabuh-tabuhan",
+      "labuhan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuhan",
+    "replacements": [
+      "labuhan",
+      "tabuhan",
+      "abuh-abuhan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abui",
+    "replacements": [
+      "abuh",
+      "abuk",
+      "abul"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuk",
+    "replacements": [
+      "cabuk",
+      "gabuk",
+      "habuk"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuk-abuk",
+    "replacements": [
+      "abuk",
+      "abu-abu",
+      "cabuk"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuk gergaji",
+    "replacements": [
+      "serbuk gergaji",
+      "gergaji",
+      "hiu gergaji"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abul",
+    "replacements": [
+      "cabul",
+      "kabul",
+      "mabul"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abulhayat",
+    "replacements": [
+      "maulhayat",
+      "bahrulhayat",
+      "hayat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abulia",
+    "replacements": [
+      "bulian",
+      "kabuli",
+      "abul"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abulus",
+    "replacements": [
+      "bulus",
+      "babulu",
+      "abul"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abun",
+    "replacements": [
+      "abung",
+      "babun",
+      "labun"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abun-abun",
+    "replacements": [
+      "abun",
+      "abu-abu",
+      "abung"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abung",
+    "replacements": [
+      "dabung",
+      "gabung",
+      "habung"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abur",
+    "replacements": [
+      "babur",
+      "cabur",
+      "kabur"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aburan",
+    "replacements": [
+      "taburan",
+      "buraan",
+      "tabura"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abus",
+    "replacements": [
+      "dabus",
+      "gabus",
+      "kabus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu saja tak hinggap",
+    "replacements": [
+      "sajak tiga seuntai",
+      "jaksa tinggi",
+      "sabuk jingga"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu soda",
+    "replacements": [
+      "soda abu",
+      "soda",
+      "air soda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abut",
+    "replacements": [
+      "babut",
+      "cabut",
+      "jabut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu terbang",
+    "replacements": [
+      "terbabang",
+      "juru terbang",
+      "terbang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu tulang",
+    "replacements": [
+      "flu tulang",
+      "kayu tulang",
+      "bulang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abu vulkanis",
+    "replacements": [
+      "debu vulkanik",
+      "vulkanis",
+      "awan vulkanis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuya",
+    "replacements": [
+      "buya",
+      "buyar",
+      "abuh"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abuza",
+    "replacements": [
+      "zabur",
+      "abuh",
+      "abui"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "abyad",
+    "replacements": [
+      "abad",
+      "adab",
+      "babad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acabis",
+    "replacements": [
+      "abis",
+      "cabik",
+      "cabir"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acah",
+    "replacements": [
+      "cacah",
+      "bacah",
+      "caca"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acak",
+    "replacements": [
+      "cacak",
+      "bacak",
+      "kacak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acak-acak",
+    "replacements": [
+      "acak-acakan",
+      "acak",
+      "cacak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acak-acakan",
+    "replacements": [
+      "acak-acak",
+      "anak-anakan",
+      "ancak-ancak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acakadut",
+    "replacements": [
+      "kacak",
+      "kadut",
+      "pakacar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acala",
+    "replacements": [
+      "calacah",
+      "calak",
+      "calar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acan",
+    "replacements": [
+      "acang",
+      "bacan",
+      "macan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acan-acan",
+    "replacements": [
+      "acan",
+      "acang-acang",
+      "acak-acakan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acang",
+    "replacements": [
+      "bacang",
+      "kacang",
+      "macang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acang-acang",
+    "replacements": [
+      "ancang-ancang",
+      "acang",
+      "acan-acan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acang-acang (dalam) kampung",
+    "replacements": [
+      "pulang kampung",
+      "kampung halaman",
+      "acang-acang alat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acang-acang alat",
+    "replacements": [
+      "acang-acang",
+      "alang-alang",
+      "alang-alangan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acap",
+    "replacements": [
+      "cacap",
+      "caca",
+      "acap-acap"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acap-acap",
+    "replacements": [
+      "acap",
+      "cacap",
+      "cacap-cacapan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acap kali",
+    "replacements": [
+      "kerap kali",
+      "malim kapal",
+      "kalicau"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acap melempar, akan jatuh jua",
+    "replacements": [
+      "tembakan melompat",
+      "dekat tak tercapai, jauh tak antara",
+      "sedepa jalan ke muka, setelempap jalan ke belakang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acar",
+    "replacements": [
+      "cacar",
+      "acara",
+      "bacar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara",
+    "replacements": [
+      "acaram",
+      "acar",
+      "cacar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara iklan",
+    "replacements": [
+      "siaran iklan",
+      "lancaran",
+      "pacaran"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acaram",
+    "replacements": [
+      "acara",
+      "caram",
+      "pramuacara"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara niaga",
+    "replacements": [
+      "siaran niaga",
+      "tata niaga",
+      "cagaran"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara pembukaan",
+    "replacements": [
+      "pembukaan",
+      "kaca pembakar",
+      "pembukaan praresmi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara pokok",
+    "replacements": [
+      "harga pokok",
+      "acara",
+      "dosa pokok"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara rapat",
+    "replacements": [
+      "aparat",
+      "tata acara",
+      "saudara rapat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara surat",
+    "replacements": [
+      "mata surat",
+      "surat suara",
+      "tata acara"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara tugas",
+    "replacements": [
+      "kata tugas",
+      "acara niaga",
+      "surat tugas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acara utama",
+    "replacements": [
+      "mata acara",
+      "hama utama",
+      "warna utama"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acar kuning",
+    "replacements": [
+      "akar kuning",
+      "ambar kuning",
+      "selar kuning"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acar matang",
+    "replacements": [
+      "air matang",
+      "gandar mata",
+      "sarang macan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acarya",
+    "replacements": [
+      "acar",
+      "arya",
+      "cacar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acat",
+    "replacements": [
+      "cacat",
+      "macat",
+      "pacat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acatan",
+    "replacements": [
+      "cacatan",
+      "catan",
+      "catatan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acau",
+    "replacements": [
+      "cacau",
+      "kacau",
+      "pacau"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acawi",
+    "replacements": [
+      "cawi",
+      "cawis",
+      "caca"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "accelerando",
+    "replacements": [
+      "acerang",
+      "beleran",
+      "keleleran"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "accent aigu",
+    "replacements": [
+      "accent grave"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "accent grave",
+    "replacements": [
+      "accent aigu",
+      "penyakit graves",
+      "intravena"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "accoord",
+    "replacements": [
+      "d’accord",
+      "gacor",
+      "cokorda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aceh",
+    "replacements": [
+      "ceceh",
+      "lace",
+      "mace"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aceh besar",
+    "replacements": [
+      "salah besar",
+      "bedah cesar",
+      "rumah besar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aceh jaya",
+    "replacements": [
+      "aceh",
+      "jaya",
+      "dki jaya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aceh singkil",
+    "replacements": [
+      "singkil",
+      "ulu singkil",
+      "tali singkil"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aceh tamiang",
+    "replacements": [
+      "tamiang",
+      "buluh tamiang",
+      "bambu tamiang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acekarom",
+    "replacements": [
+      "cekar",
+      "kacek",
+      "cekarau"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acerang",
+    "replacements": [
+      "cerang",
+      "erang",
+      "cerancang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aci-aci",
+    "replacements": [
+      "aci-acian",
+      "aci-acinya",
+      "acik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aci-acian",
+    "replacements": [
+      "aci-aci",
+      "acian",
+      "cacian"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aci-aci kalimat",
+    "replacements": [
+      "kalimat",
+      "kalimat kunci",
+      "tata kalimat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aci-acinya",
+    "replacements": [
+      "aci-aci",
+      "aci-acian",
+      "seasli-aslinya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acian",
+    "replacements": [
+      "cacian",
+      "aci-acian",
+      "anacina"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acik",
+    "replacements": [
+      "bacik",
+      "kacik",
+      "pacik"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aci sagu",
+    "replacements": [
+      "sagu",
+      "sagun",
+      "sagur"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "aco-acoan",
+    "replacements": [
+      "acoan",
+      "gacoan",
+      "ancoa"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acoan",
+    "replacements": [
+      "gacoan",
+      "aco-acoan",
+      "ancoa"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acop",
+    "replacements": [
+      "baco",
+      "gaco",
+      "kaco"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "actus reus",
+    "replacements": [
+      "putus rezeki",
+      "ictus",
+      "retus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuan",
+    "replacements": [
+      "pacuan",
+      "cuaca",
+      "cuang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuan cetak",
+    "replacements": [
+      "bahan cetak",
+      "tahan cuaca",
+      "wartawan cetak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuan kertas",
+    "replacements": [
+      "macan kertas",
+      "uang kertas",
+      "uang kertas bank"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuan sepatu",
+    "replacements": [
+      "persepatuan",
+      "pacuan",
+      "sepatu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuci",
+    "replacements": [
+      "cuci",
+      "cucian",
+      "cucing"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuh",
+    "replacements": [
+      "racuh",
+      "acuhan",
+      "acum"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuhan",
+    "replacements": [
+      "acuh",
+      "bancuhan",
+      "acuan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuh tak acuh",
+    "replacements": [
+      "tak acuh (acuh tak acuh)",
+      "takacuh",
+      "asan tak asan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acum",
+    "replacements": [
+      "acuman",
+      "acuh",
+      "cacu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acuman",
+    "replacements": [
+      "cuman",
+      "acum",
+      "cuma"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acung",
+    "replacements": [
+      "kacung",
+      "cung",
+      "acungan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "acungan",
+    "replacements": [
+      "acung",
+      "lancungan",
+      "mengacung"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ad-daulah al-islāmiyyah",
+    "replacements": [
+      "al-’aṣabiyyah al-islāmiyyah",
+      "al-ukhuwah al-islamiyyah",
+      "’aṣabah al-qaumiyyah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada-ada",
+    "replacements": [
+      "ada-adanya",
+      "berada-ada",
+      "adad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada-adanya",
+    "replacements": [
+      "adanya",
+      "ada-adanyakah",
+      "nada-nadanya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada-adanyakah",
+    "replacements": [
+      "ada-adanya",
+      "adakalanya",
+      "adakah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada-ada saja",
+    "replacements": [
+      "sajadah",
+      "apa saja",
+      "ada-ada"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada adat dan lembaganya, ada undang dan laksananya",
+    "replacements": [
+      "adat diisi, lembaga dituang",
+      "lembaga perlindungan anak",
+      "lembaga perlindungan saksi dan korban"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adab",
+    "replacements": [
+      "adad",
+      "dada",
+      "biadab"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada bangkai, ada hering",
+    "replacements": [
+      "cerita bingkai",
+      "angin badai",
+      "angka biner"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada berair juga rupanya",
+    "replacements": [
+      "pandai berminyak air",
+      "bagai rupa orang terkena beragih",
+      "air beras"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada beras, taruh dalam padi",
+    "replacements": [
+      "taruh beras dalam padi",
+      "memahat di dalam baris, berkata dalam pusaka",
+      "bentara dalam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adabiah",
+    "replacements": [
+      "biadab",
+      "biadat",
+      "nabiah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada biduk, serempu pula",
+    "replacements": [
+      "bagai serdadu pulang baris",
+      "ada gula, ada semut",
+      "lampu padam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ad absurdum",
+    "replacements": [
+      "reductio ad absurdum",
+      "absurd",
+      "seabsurd"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaci",
+    "replacements": [
+      "dacin",
+      "adad",
+      "dacing"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adad",
+    "replacements": [
+      "dada",
+      "adab",
+      "adah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adagio",
+    "replacements": [
+      "agio",
+      "dagi",
+      "adagium"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adagium",
+    "replacements": [
+      "agium",
+      "adagio",
+      "dagi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada gula, ada semut",
+    "replacements": [
+      "gula semut",
+      "semut gula",
+      "landak semut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adah",
+    "replacements": [
+      "dadah",
+      "gadah",
+      "jadah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada hujan ada panas, ada hari boleh balas",
+    "replacements": [
+      "tak lekang oleh panas, tak lapuk oleh hujan",
+      "panas setahun dihapuskan oleh hujan sehari",
+      "hilang bini boleh dicari, hilang budi badan celaka"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adak",
+    "replacements": [
+      "dadak",
+      "adaks",
+      "badak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adakah",
+    "replacements": [
+      "dakah",
+      "kadah",
+      "muakadah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adakah buaya menolak bangkai?",
+    "replacements": [
+      "mayang menolak seludang",
+      "seludang menolakkan mayang",
+      "langkas buah pepaya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adakala",
+    "replacements": [
+      "adakalanya",
+      "kadal",
+      "kalak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adakalanya",
+    "replacements": [
+      "adakala",
+      "menyalakan",
+      "ada-adanyakah"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adakan",
+    "replacements": [
+      "dadakan",
+      "adakah",
+      "andaka"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaks",
+    "replacements": [
+      "adak",
+      "dadak",
+      "badak"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaksial",
+    "replacements": [
+      "adaks",
+      "abaksial",
+      "koaksial"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaktil",
+    "replacements": [
+      "daktil",
+      "daktilo-",
+      "taktil"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adalabang",
+    "replacements": [
+      "badang",
+      "balabad",
+      "balada"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adalah",
+    "replacements": [
+      "dalalah",
+      "ladah",
+      "adalat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adalat",
+    "replacements": [
+      "dalalat",
+      "adalah",
+      "balada"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adam",
+    "replacements": [
+      "adamu",
+      "badam",
+      "hadam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada main",
+    "replacements": [
+      "dada manuk",
+      "main muda",
+      "mata badai"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adamat",
+    "replacements": [
+      "jamadat",
+      "damat",
+      "madam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adamu",
+    "replacements": [
+      "adam",
+      "mukadam",
+      "badam"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adan",
+    "replacements": [
+      "adang",
+      "badan",
+      "ladan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adang",
+    "replacements": [
+      "badang",
+      "cadang",
+      "gadang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adang-adang",
+    "replacements": [
+      "andang-andang",
+      "adang",
+      "kadang-kadang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adanya",
+    "replacements": [
+      "ada-adanya",
+      "seadanya",
+      "danyang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada nyawa (umur), ada rezeki",
+    "replacements": [
+      "ada nyawa, ada rezeki",
+      "ada nyawa, ada ikan",
+      "ada nyawa, nyawa ikan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada nyawa, ada ikan",
+    "replacements": [
+      "ada nyawa, nyawa ikan",
+      "ada nyawa, ada rezeki",
+      "satu nyawa, dua badan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada nyawa, ada rezeki",
+    "replacements": [
+      "ada nyawa (umur), ada rezeki",
+      "ada nyawa, ada ikan",
+      "ada nyawa, nyawa ikan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada nyawa, nyawa ikan",
+    "replacements": [
+      "ada nyawa, ada ikan",
+      "satu nyawa, dua badan",
+      "ada nyawa, ada rezeki"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adap-adapan",
+    "replacements": [
+      "hadapan",
+      "sadapan",
+      "padan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada padi, segala menjadi",
+    "replacements": [
+      "lada panjang",
+      "siapa menjala, siapa terjun",
+      "lada padi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptabel",
+    "replacements": [
+      "adaptasi",
+      "beradaptasi",
+      "tabel"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptabilitas",
+    "replacements": [
+      "inadaptabilitas",
+      "kapabilitas",
+      "labilitas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptasi",
+    "replacements": [
+      "aptasi",
+      "beradaptasi",
+      "teradaptasi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptasi cagar budaya",
+    "replacements": [
+      "cagar budaya",
+      "adaptasi cahaya",
+      "adaptasi kebudayaan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptasi cahaya",
+    "replacements": [
+      "adaptasi cagar budaya",
+      "daya adaptasi",
+      "aberasi cahaya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptasi kebudayaan",
+    "replacements": [
+      "asimilasi kebudayaan",
+      "integrasi kebudayaan",
+      "kebudayaan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptasi sosial",
+    "replacements": [
+      "adaptasi",
+      "fasilitasi sosial",
+      "isolasi sosial"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adapter",
+    "replacements": [
+      "apter",
+      "terhadap",
+      "tersadap"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptif",
+    "replacements": [
+      "adapter",
+      "adaptor",
+      "adoptif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptogen",
+    "replacements": [
+      "adaptor",
+      "sinaptogenesis",
+      "adapter"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptometer",
+    "replacements": [
+      "adapter",
+      "apertometer",
+      "leptometer"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adaptor",
+    "replacements": [
+      "adaptogen",
+      "adapter",
+      "adaptif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adapun",
+    "replacements": [
+      "adapus",
+      "dadap",
+      "apung"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adapun manikam itu jika dijatuhkan ke dalam limbahan sekalipun, niscaya tidak hilang cahayanya",
+    "replacements": [
+      "arang itu jikalau dibasuh dng air mawar sekalipun, tiada akan putih",
+      "ke mana tumpah hujan dr bubungan, kalau tidak ke cucuran atap",
+      "asal ayam pulang ke lumbung, asal itik pulang ke pelimbahan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adapus",
+    "replacements": [
+      "adapun",
+      "odapus",
+      "apus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adar",
+    "replacements": [
+      "dadar",
+      "badar",
+      "cadar"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada rotan, ada duri",
+    "replacements": [
+      "dadap duri",
+      "bola rotan",
+      "pandan duri"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada rupa, ada harga",
+    "replacements": [
+      "harga runcit",
+      "upacara adat",
+      "arupadatu"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adarusa",
+    "replacements": [
+      "tadarusan",
+      "tadarus",
+      "darus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adas",
+    "replacements": [
+      "cadas",
+      "dadasa",
+      "hadas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adas manis",
+    "replacements": [
+      "minyak adas manis",
+      "madani",
+      "laris manis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adas sowa",
+    "replacements": [
+      "wadas",
+      "das sollen",
+      "aswasada"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat",
+    "replacements": [
+      "adati",
+      "hadat",
+      "madat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat belalau",
+    "replacements": [
+      "beladau",
+      "adalat",
+      "alat berat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat bersendi syarak, syarak bersendi kitabullah",
+    "replacements": [
+      "ayat kitabullah",
+      "akseptasi bersyarat",
+      "buntat hendak jadi kemala"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat bilokal",
+    "replacements": [
+      "adat matrilokal",
+      "adat patrilokal",
+      "bilokal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat dagang tahan tawar",
+    "replacements": [
+      "pawang darat",
+      "sawah tadahan",
+      "tahan tangan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat diisi, janji dilabuh",
+    "replacements": [
+      "adat diisi, lembaga dituang",
+      "disimilasi jauh"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat diisi, lembaga dituang",
+    "replacements": [
+      "ada adat dan lembaganya, ada undang dan laksananya",
+      "lengan bagai lilin dituang",
+      "tua dagang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat fodidi",
+    "replacements": [
+      "iodida",
+      "padat modal",
+      "adidaya"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat gunung tempatan kabut, adat teluk timbunan kapal (kapar)",
+    "replacements": [
+      "tak akan (takkan) lari gunung dikejar, hilang kabut tampaklah dia",
+      "tak kan lari gunung dikejar, hilang kabut tampaklah dia",
+      "ke gunung tak dapat angin"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat hidup tolong-menolong, syariat palu-memalu",
+    "replacements": [
+      "syariat palu-memalu, hakikat balas-membalas",
+      "syariat palu-memalu, pd hakikatnya adalah balas-membalas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat huma",
+    "replacements": [
+      "madat",
+      "padi huma",
+      "adamat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adati",
+    "replacements": [
+      "adat",
+      "dati",
+      "datif"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adati balano",
+    "replacements": [
+      "balai madat",
+      "adalabang",
+      "adalat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat istiadat",
+    "replacements": [
+      "istiadat",
+      "istibdad",
+      "adati"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat kakurung ku iga",
+    "replacements": [
+      "burung kuak",
+      "burung kuak-kuak",
+      "pidana kurungan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat kemenakan",
+    "replacements": [
+      "anak kemenakan",
+      "kemenakan",
+      "kemenakan datang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat lama pusaka usang",
+    "replacements": [
+      "masyarakat peladang",
+      "pusat ramalan",
+      "makadasang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat matrilineal",
+    "replacements": [
+      "matrilineal",
+      "asas matrilineal",
+      "patrilineal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat matrilokal",
+    "replacements": [
+      "adat patrilokal",
+      "matrilokal",
+      "adat bilokal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat neolokal",
+    "replacements": [
+      "neolokal",
+      "adat bilokal",
+      "adat matrilokal"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat ogan",
+    "replacements": [
+      "adat pegagan",
+      "gadang",
+      "gadangan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pasang berturun naik",
+    "replacements": [
+      "angin pasang naik",
+      "angin pasang turun",
+      "berjanjang naik, bertangga turun"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat patrilokal",
+    "replacements": [
+      "adat matrilokal",
+      "adat bilokal",
+      "padat kalori"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pegagan",
+    "replacements": [
+      "daun pegagan",
+      "adat ogan",
+      "adat pemaduan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pemaduan",
+    "replacements": [
+      "adat pembuang",
+      "pemaduan",
+      "adat pemali"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pemali",
+    "replacements": [
+      "adat pemaduan",
+      "pemadat",
+      "memadat perut"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pembakaran jenazah",
+    "replacements": [
+      "adat pembiaran jenazah",
+      "zat pembakar",
+      "pembajakan pesawat udara"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pembiaran jenazah",
+    "replacements": [
+      "adat pembakaran jenazah",
+      "padat penebaran",
+      "tahanan pemberat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pembuang",
+    "replacements": [
+      "adat pemaduan",
+      "badan pembuat undang-undang",
+      "membuang adat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat peminggir",
+    "replacements": [
+      "peminggir",
+      "peminggiran",
+      "meminggir"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat pepadun",
+    "replacements": [
+      "zat padat",
+      "padat pengunjung",
+      "adat pemaduan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat periuk berkerak, adat lesung berdedak",
+    "replacements": [
+      "menumbuk di periuk, bertanak di lesung",
+      "menumbuk di lesung, bertanak di periuk",
+      "ke mana dialih, lesung berdedak juga"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat ranau",
+    "replacements": [
+      "danau ranau",
+      "pradana",
+      "raut badan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat semende",
+    "replacements": [
+      "adat semendo",
+      "tempat semenda",
+      "semenda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat semendo",
+    "replacements": [
+      "adat semende",
+      "tempat semenda",
+      "semenda"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adat sepanjang jalan, cupak sepanjang betung",
+    "replacements": [
+      "bayang-bayang tidak sepanjang badan",
+      "alat pacu jantung",
+      "bayang-bayang sepanjang badan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adau",
+    "replacements": [
+      "badau",
+      "sadau",
+      "adad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada uang abang (di)sayang, tak ada uang abang melayang",
+    "replacements": [
+      "adakah buaya menolak bangkai?",
+      "iba akan kacang sebuah, tak jadi memengat",
+      "kalau tak ada api, masakan ada asap"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada ubi ada talas, ada budi ada balas",
+    "replacements": [
+      "ada beras, taruh dalam padi",
+      "budi daya tali",
+      "bagai air di daun talas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "ada udang (berudang) di balik batu",
+    "replacements": [
+      "senang di balik senang",
+      "besi baik tiada berkarat (budi baik tak dilupakan)",
+      "serasa di balik awan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adeg",
+    "replacements": [
+      "adegan",
+      "adeh",
+      "adei"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan",
+    "replacements": [
+      "degan",
+      "seadegan",
+      "andegan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan dugong",
+    "replacements": [
+      "adegan ranjang",
+      "adegan",
+      "dugang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan kecil",
+    "replacements": [
+      "gadis kecil",
+      "iklan kecil",
+      "adegan keributan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan keributan",
+    "replacements": [
+      "keributan",
+      "adegan kecil",
+      "hutan kerangas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan panas",
+    "replacements": [
+      "adegan pastoral",
+      "tangan panas",
+      "senapan pegas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan pastoral",
+    "replacements": [
+      "adegan panas",
+      "pastoral",
+      "pastoran"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan pengikat",
+    "replacements": [
+      "bahan pengikat",
+      "pengadeganan",
+      "ikan pelangi"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan ranjang",
+    "replacements": [
+      "branjangan",
+      "turun ranjang",
+      "beradegan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan seks",
+    "replacements": [
+      "seadegan",
+      "adegan syur",
+      "adegan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan simpulan",
+    "replacements": [
+      "simpulan",
+      "set adegan simultan",
+      "kesimpulan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan syur",
+    "replacements": [
+      "adegan seks",
+      "adegan",
+      "adegan simpulan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan terbuka",
+    "replacements": [
+      "tangan terbuka",
+      "bertangan terbuka",
+      "lapangan terbuka"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adegan wajib",
+    "replacements": [
+      "sumbangan wajib",
+      "adegan",
+      "adegan panas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adeh",
+    "replacements": [
+      "gadeh",
+      "adeg",
+      "adei"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adei",
+    "replacements": [
+      "sadei",
+      "adeg",
+      "adeh"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adek",
+    "replacements": [
+      "dadek",
+      "dekade",
+      "dekaden"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adekuat",
+    "replacements": [
+      "takadekuat",
+      "sekuat",
+      "adek"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adelfogami",
+    "replacements": [
+      "apogami",
+      "isogami",
+      "misogami"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adelfoparasit",
+    "replacements": [
+      "aloparasit",
+      "parasit",
+      "ektoparasit"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adelo",
+    "replacements": [
+      "cadel",
+      "sadel",
+      "delong"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adem",
+    "replacements": [
+      "fadem",
+      "vadem",
+      "diadem"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adem ati",
+    "replacements": [
+      "adem ayem",
+      "kademat",
+      "adem"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adem ayem",
+    "replacements": [
+      "adem ati",
+      "adem",
+      "ayem"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adempauze",
+    "replacements": [
+      "dempak",
+      "dempam",
+      "dempang"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adena",
+    "replacements": [
+      "dena",
+      "adenina",
+      "ladenan"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenda",
+    "replacements": [
+      "denda",
+      "dendam",
+      "mendada"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adendum",
+    "replacements": [
+      "adenda",
+      "adenium",
+      "adum"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenin",
+    "replacements": [
+      "adenina",
+      "adenium",
+      "eritadenin"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenina",
+    "replacements": [
+      "adenin",
+      "adena",
+      "adenosina"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenium",
+    "replacements": [
+      "adenin",
+      "renium",
+      "adendum"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenoblas",
+    "replacements": [
+      "laden",
+      "oblasi",
+      "aktinoblas"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenoid",
+    "replacements": [
+      "adenoma",
+      "glenoid",
+      "nomaden"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenokarsinoma",
+    "replacements": [
+      "karsinoma",
+      "kokarsinogen",
+      "adenoma"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenoma",
+    "replacements": [
+      "nomaden",
+      "maden",
+      "nomad"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenosina",
+    "replacements": [
+      "adenosis",
+      "adenosit",
+      "adenina"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenosina difosfat",
+    "replacements": [
+      "adenosina trifosfat",
+      "adenosina",
+      "fosfatidilinositol"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenosina trifosfat",
+    "replacements": [
+      "adenosina difosfat",
+      "adenosina",
+      "trifosfat"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenosis",
+    "replacements": [
+      "adenosit",
+      "adenosina",
+      "limfadenosis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenosit",
+    "replacements": [
+      "adenosis",
+      "adenosina",
+      "limfadenosis"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  },
+  {
+    "source": "adenovirus",
+    "replacements": [
+      "enterovirus",
+      "neovirus",
+      "provirus"
+    ],
+    "modes": [
+      "formal",
+      "akademik",
+      "santai"
+    ]
+  }
+]
