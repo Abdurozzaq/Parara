@@ -1,6 +1,8 @@
 # Parara
 
-API Express.js untuk paraphrasing teks bahasa Indonesia secara lokal dengan pipeline berlapis:
+Aplikasi paraphrase teks bahasa Indonesia yang berjalan **secara lokal** di komputer Anda. Antarmuka utama disajikan lewat **aplikasi desktop Windows** (Electron): server Express berjalan di dalam aplikasi, jadi Anda tidak perlu membuka browser secara terpisah.
+
+Fitur inti pipeline pemrosesan:
 
 - normalisasi teks
 - perbaikan typo/ejaan ringan
@@ -12,23 +14,79 @@ API Express.js untuk paraphrasing teks bahasa Indonesia secara lokal dengan pipe
 - penyesuaian gaya bahasa
 - humanization untuk hasil lebih natural
 
-Parara kini berjalan sebagai aplikasi open source gratis tanpa sistem lisensi serial.
+Parara open source dan gratis tanpa sistem lisensi serial.  
 Kredit proyek: [Abdurozzaq Nurul Hadi](https://github.com/Abdurozzaq/Parara).
 
-## Menjalankan
+## Aplikasi desktop Windows (disarankan)
+
+### Prasyarat
+
+- [Node.js](https://nodejs.org/) (disarankan LTS)
+- Windows 10/11 (x64)
+
+### Instalasi dependensi
+
+```bash
+npm install
+```
+
+### Menjalankan aplikasi desktop (tanpa build installer)
+
+```bash
+npm run desktop:start
+```
+
+Perintah di atas memakai Electron dan membuka jendela Parara. Server HTTP internal dipilih secara dinamis (biasanya `127.0.0.1` dengan port acak) sehingga tidak bentrok dengan aplikasi lain.
+
+### Membuat installer Windows (`.exe`)
+
+```bash
+npm run desktop:dist
+```
+
+Artefak utama ada di folder `dist/`:
+
+- **Installer NSIS**: `dist/Parara-Setup-<versi>.exe` (nama mengikuti `version` di `package.json`)
+
+Icon aplikasi Windows berasal dari `assets/parara.ico`. Jika ingin mengubah tampilan icon, edit alur di `scripts/generate-icon.js` lalu jalankan:
+
+```bash
+npm run generate:icon
+```
+
+Setelah itu build ulang dengan `npm run desktop:dist`.
+
+### macOS dan Linux
+
+**Installer resmi untuk macOS atau Linux tidak disertakan di repo ini.** Anda bisa membangunnya sendiri di mesin target (disarankan menjalankan `electron-builder` pada OS yang sama dengan target paket):
+
+```bash
+npm install
+# Contoh: hanya macOS (jalankan di macOS)
+npx electron-builder --mac
+
+# Contoh: hanya Linux (jalankan di Linux)
+npx electron-builder --linux
+```
+
+Untuk opsi target lengkap (DMG, AppImage, deb, dan lainnya), lihat dokumentasi [electron-builder](https://www.electron.build/).
+
+## Mode pengembangan: API + browser lokal
+
+Jika Anda mengembangkan atau ingin mengakses Parara seperti layanan web lokal:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Server berjalan di `http://localhost:3000`.
+Server berjalan di `http://localhost:3000` (atau port dari variabel lingkungan `PORT`).
 
-## Endpoint
+## Endpoint API
 
 ### `POST /paraphrase`
 
-Satu request akan menjalankan correction pipeline lokal terlebih dahulu, lalu meneruskan hasilnya ke engine paraphrase.
+Satu request menjalankan correction pipeline lokal terlebih dahulu, lalu meneruskan hasilnya ke engine paraphrase.
 
 Request body:
 
@@ -41,7 +99,7 @@ Request body:
 }
 ```
 
-Contoh `curl`:
+Contoh `curl` (mode web lokal, port default 3000):
 
 ```bash
 curl -X POST http://localhost:3000/paraphrase \
@@ -69,15 +127,14 @@ Contoh respons:
 }
 ```
 
-## Struktur
+## Struktur proyek
 
 ```text
-src/
-  app.js
-  controllers/
-  data/
-  services/
-  utils/
+electron/          # proses utama Electron (desktop)
+public/            # antarmuka web yang dilayani Express
+src/               # server Express, engine paraphrase, data
+assets/            # icon desktop (mis. parara.ico)
+scripts/           # utilitas build, mis. generate icon
 tests/
 ```
 
@@ -87,10 +144,9 @@ tests/
 npm test
 ```
 
-## Generate Data Sinonim
+## Generate data sinonim
 
-Generator mengambil sinonim dari sumber yang sama dengan package `synonym-antonym-indonesia`, yaitu `sinonimkata.com`.
-Konfigurasi default dibaca dari file `.env`.
+Generator mengambil sinonim dari sumber yang sama dengan package `synonym-antonym-indonesia`, yaitu `sinonimkata.com`. Konfigurasi default dibaca dari file `.env`.
 
 1. Siapkan daftar kata di `wordlist.txt` (atau file lain via env `SYNONYM_WORDLIST`).
 2. Jalankan generator:
@@ -99,7 +155,7 @@ Konfigurasi default dibaca dari file `.env`.
 npm run generate:synonyms
 ```
 
-Output default akan ditulis ke `src/data/synonyms.generated.json` agar tidak menimpa `src/data/synonyms.json` yang sudah dikurasi manual.
+Output default ditulis ke `src/data/synonyms.generated.json` agar tidak menimpa `src/data/synonyms.json` yang sudah dikurasi manual.
 
 Env opsional:
 
