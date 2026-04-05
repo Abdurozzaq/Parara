@@ -36,6 +36,10 @@ const strengthDescriptions = {
 };
 
 function setFeedback(message, tone = "default") {
+  if (!feedbackMessage) {
+    return;
+  }
+
   feedbackMessage.textContent = message;
   feedbackMessage.classList.remove("is-error", "is-success");
 

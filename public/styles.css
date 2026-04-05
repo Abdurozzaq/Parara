@@ -480,6 +480,10 @@ input[type="range"] {
   background: rgba(74, 222, 128, 0.12);
 }
 
+.workspace-panel > .feedback-message {
+  margin: 0 0 20px;
+}
+
 .note-card {
   margin-top: auto;
 }
