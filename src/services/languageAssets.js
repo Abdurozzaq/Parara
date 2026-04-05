@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { resolveOptionalResourcePath } = require("../runtimePaths");
 
 const synonymEntries = require("../data/synonyms.json");
 
@@ -118,7 +119,8 @@ function normalizeLookupKey(value) {
 }
 
 function readWordlist() {
-  const wordlistPath = path.join(__dirname, "../../wordlist.txt");
+  const wordlistPath =
+    resolveOptionalResourcePath("wordlist.txt") || path.join(__dirname, "../../wordlist.txt");
 
   try {
     return fs

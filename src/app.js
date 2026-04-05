@@ -1,5 +1,7 @@
-const path = require("path");
-require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
+const { getPublicDir, resolveOptionalResourcePath } = require("./runtimePaths");
+
+const envPath = resolveOptionalResourcePath(".env");
+require("dotenv").config(envPath ? { path: envPath } : undefined);
 
 const express = require("express");
 const cors = require("cors");
@@ -26,7 +28,7 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 app.use(morgan("combined"));
-app.use(express.static(path.join(__dirname, "..", "public")));
+app.use(express.static(getPublicDir()));
 app.use("/paraphrase", limiter);
 
 app.get("/health", (_req, res) => {
