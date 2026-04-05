@@ -15,8 +15,8 @@ function validateParaphraseRequest(req, _res, next) {
     return next(createHttpError("Field 'mode' harus bernilai formal, santai, atau akademik."));
   }
 
-  if (!Number.isInteger(strength) || strength < 1 || strength > 5) {
-    return next(createHttpError("Field 'strength' harus berupa integer antara 1 sampai 5."));
+  if (!Number.isInteger(strength) || strength < 1 || strength > 8) {
+    return next(createHttpError("Field 'strength' harus berupa integer antara 1 sampai 8."));
   }
 
   if (!Array.isArray(preserveKeywords) || preserveKeywords.some((item) => typeof item !== "string")) {

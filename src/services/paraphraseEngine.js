@@ -1,8 +1,5 @@
 const {
   normalizeSpacing,
-  normalizePunctuation,
-  splitSentences,
-  capitalizeSentence,
   preserveKeywords: protectKeywords,
   restoreKeywords,
 } = require("../utils/textUtils");
@@ -10,50 +7,13 @@ const { createSeededRandom } = require("../utils/random");
 const { calculateSimilarity } = require("../utils/similarity");
 const { applySynonyms } = require("./synonymEngine");
 const { transformStructure } = require("./structureTransformer");
+const { preprocessText } = require("./preprocessEngine");
+const { formatSentences } = require("./punctuationService");
 const {
   applyPhraseVariations,
   applyStyleAdjustment,
   humanizeText,
 } = require("./styleEngine");
-
-const typoMap = {
-  yg: "yang",
-  dgn: "dengan",
-  krn: "karena",
-  utk: "untuk",
-  dlm: "dalam",
-  dr: "dari",
-  tdk: "tidak",
-  tsb: "tersebut",
-  gk: "tidak",
-};
-
-function cleanSentenceStarts(text) {
-  return splitSentences(text)
-    .map((sentence) => capitalizeSentence(sentence.trim()))
-    .join(" ")
-    .trim();
-}
-
-function normalizeText(text, { mode }) {
-  let workingText = normalizeSpacing(normalizePunctuation(text));
-
-  Object.entries(typoMap).forEach(([source, target]) => {
-    const matcher = new RegExp(`\\b${source}\\b`, "gi");
-    workingText = workingText.replace(matcher, target);
-  });
-
-  workingText = workingText.replace(/\s{2,}/g, " ").trim();
-
-  if (mode !== "santai") {
-    workingText = cleanSentenceStarts(workingText);
-  }
-
-  return {
-    text: workingText,
-    techniquesUsed: workingText !== text ? ["text_normalization"] : [],
-  };
-}
 
 function createCandidate(text, originalText, techniquesUsed) {
   return {
@@ -70,6 +30,9 @@ function rankCandidate(candidate, strength) {
     3: [62, 89],
     4: [54, 84],
     5: [46, 80],
+    6: [40, 76],
+    7: [34, 72],
+    8: [28, 68],
   };
 
   const [min, max] = targetRanges[strength];
@@ -121,8 +84,8 @@ async function paraphrase({ text, mode, strength, preserve_keywords: preserveKey
   let workingText = safeText;
   let techniques = [];
 
-  // Layer 1: normalize whitespace, punctuation, and lightweight informal typos.
-  const normalized = normalizeText(workingText, { mode });
+  // Layer 1: run local preprocessing for normalization, typo, grammar, and punctuation fixes.
+  const normalized = preprocessText(workingText, { mode });
   workingText = normalized.text;
   techniques = techniques.concat(normalized.techniquesUsed);
   candidates.push(createCandidate(restoreKeywords(workingText, replacements), text, techniques));
@@ -156,7 +119,7 @@ async function paraphrase({ text, mode, strength, preserve_keywords: preserveKey
   workingText = humanized.text;
   techniques = techniques.concat(humanized.techniquesUsed);
   const finalText = restoreKeywords(
-    mode === "santai" ? normalizeSpacing(workingText) : cleanSentenceStarts(workingText),
+    mode === "santai" ? normalizeSpacing(workingText) : formatSentences(workingText),
     replacements,
   );
   candidates.push(createCandidate(finalText, text, techniques));

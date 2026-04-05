@@ -10,7 +10,7 @@
     "generate:synonyms": "node generate-data.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abdurozzaq Nurul Hadi",
   "license": "ISC",
   "type": "commonjs",
   "jest": {

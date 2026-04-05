@@ -13,20 +13,27 @@ const clearButton = document.getElementById("clearButton");
 const copyButton = document.getElementById("copyButton");
 const fillExampleButton = document.getElementById("fillExampleButton");
 const apiStatus = document.getElementById("apiStatus");
+const liveWordCount = document.getElementById("liveWordCount");
+const liveKeywordCount = document.getElementById("liveKeywordCount");
+const liveReadingTime = document.getElementById("liveReadingTime");
+const strengthHint = document.getElementById("strengthHint");
 const modeButtons = Array.from(document.querySelectorAll("[data-mode]"));
-const serialInput = document.getElementById("serialInput");
-const loginButton = document.getElementById("loginButton");
-const logoutButton = document.getElementById("logoutButton");
-const accessHint = document.getElementById("accessHint");
 
 const EXAMPLE_TEXT =
   "Oleh karena itu, sistem ini membantu pengguna menyelesaikan masalah dengan cepat tanpa mengurangi kualitas hasil yang diberikan.";
 
 let selectedMode = "formal";
 let latestResult = "";
-let accessToken = localStorage.getItem("parara_access_token") || "";
-let sessionSerial = localStorage.getItem("parara_serial") || "";
-let isAuthenticated = false;
+const strengthDescriptions = {
+  1: "Level 1 menjaga struktur tetap sangat dekat dengan teks asli.",
+  2: "Level 2 memberi perubahan ringan untuk hasil yang tetap familiar.",
+  3: "Level 3 mulai mengganti diksi dan susunan kalimat secara aman.",
+  4: "Level 4 memberi hasil yang terasa berbeda tanpa terlalu agresif.",
+  5: "Level 5 cocok untuk perubahan yang cukup terasa tapi masih aman dibaca natural.",
+  6: "Level 6 mendorong variasi kalimat dan frasa lebih aktif.",
+  7: "Level 7 membuat hasil jauh lebih berbeda untuk kebutuhan rewrite berat.",
+  8: "Level 8 adalah mode paling agresif untuk paraphrase maksimal.",
+};
 
 function setFeedback(message, tone = "default") {
   feedbackMessage.textContent = message;
@@ -41,31 +48,40 @@ function setFeedback(message, tone = "default") {
   }
 }
 
-function setAccessHint(message, tone = "default") {
-  accessHint.textContent = message;
-  accessHint.classList.remove("is-error", "is-success");
-
-  if (tone === "error") {
-    accessHint.classList.add("is-error");
-  }
-
-  if (tone === "success") {
-    accessHint.classList.add("is-success");
-  }
-}
-
-function applyAccessState(authenticated) {
-  isAuthenticated = authenticated;
-  document.body.classList.toggle("is-locked", !authenticated);
-  logoutButton.disabled = !authenticated;
-  loginButton.disabled = authenticated;
-  serialInput.disabled = authenticated;
-}
-
 function updateInputMeta() {
   const text = sourceText.value.trim();
   const wordCount = text ? text.split(/\s+/).length : 0;
+  const sentenceCount = text ? (text.match(/[^.!?]+[.!?]?/g) || []).filter(Boolean).length : 0;
+  const readingMinutes = wordCount ? Math.max(1, Math.ceil(wordCount / 180)) : 0;
+
   inputMeta.textContent = `${text.length} karakter • ${wordCount} kata`;
+  liveWordCount.textContent = `${wordCount} kata`;
+  liveReadingTime.textContent = `${readingMinutes} menit baca`;
+  apiStatus.dataset.inputState = sentenceCount ? "ready" : "idle";
+}
+
+function updateKeywordMeta() {
+  const keywordCount = parseKeywords(keywordsInput.value).length;
+  liveKeywordCount.textContent = `${keywordCount} keyword`;
+}
+
+function updateStrengthMeta() {
+  const currentStrength = Number(strengthInput.value);
+  strengthValue.textContent = String(currentStrength);
+  strengthHint.textContent = strengthDescriptions[currentStrength] || strengthDescriptions[5];
+}
+
+function setApiStatus(label, tone = "default") {
+  apiStatus.textContent = label;
+  apiStatus.classList.remove("is-online", "is-offline");
+
+  if (tone === "online") {
+    apiStatus.classList.add("is-online");
+  }
+
+  if (tone === "offline") {
+    apiStatus.classList.add("is-offline");
+  }
 }
 
 function setMode(mode) {
@@ -86,13 +102,16 @@ function renderResult(text) {
       '<p class="placeholder-text">Hasil paraphrase akan muncul di sini setelah proses dijalankan.</p>';
     outputMeta.textContent = "Belum ada hasil";
     copyButton.disabled = true;
+    resultBox.classList.remove("has-result");
     latestResult = "";
     return;
   }
 
+  const wordCount = text.split(/\s+/).filter(Boolean).length;
   resultBox.textContent = text;
-  outputMeta.textContent = `${text.length} karakter`;
+  outputMeta.textContent = `${text.length} karakter • ${wordCount} kata`;
   copyButton.disabled = false;
+  resultBox.classList.add("has-result");
   latestResult = text;
 }
 
@@ -137,11 +156,6 @@ function setLoadingState(isLoading) {
 }
 
 async function paraphraseText() {
-  if (!isAuthenticated || !accessToken) {
-    setFeedback("Akses belum aktif. Masukkan serial number terlebih dahulu.", "error");
-    return;
-  }
-
   const text = sourceText.value.trim();
 
   if (!text) {
@@ -158,7 +172,6 @@ async function paraphraseText() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${accessToken}`,
       },
       body: JSON.stringify({
         text,
@@ -205,14 +218,15 @@ async function copyResult() {
 function resetWorkspace() {
   sourceText.value = "";
   keywordsInput.value = "";
-  strengthInput.value = "4";
-  strengthValue.textContent = "4";
+  strengthInput.value = "5";
   setMode("formal");
   renderResult("");
   renderTechniques([]);
   similarityScore.textContent = "-";
   setFeedback("Workspace direset. Masukkan teks baru untuk memulai.");
   updateInputMeta();
+  updateKeywordMeta();
+  updateStrengthMeta();
   sourceText.focus();
 }
 
@@ -224,118 +238,10 @@ async function checkHealth() {
       throw new Error("Health check gagal");
     }
 
-    apiStatus.textContent = "API connected";
+    setApiStatus("READY TO USE", "online");
   } catch (_error) {
-    apiStatus.textContent = "API unavailable";
+    setApiStatus("BACKEND UNAVAILABLE", "offline");
     setFeedback("Server belum merespons. Jalankan aplikasi lalu refresh halaman ini.", "error");
-  }
-}
-
-async function activateAccess() {
-  const serial = serialInput.value.trim();
-
-  if (!serial) {
-    setAccessHint("Serial number wajib diisi.", "error");
-    serialInput.focus();
-    return;
-  }
-
-  loginButton.disabled = true;
-  setAccessHint("Memvalidasi serial number...");
-
-  try {
-    const response = await fetch("/auth/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        serial,
-      }),
-    });
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.error || "Login serial gagal.");
-    }
-
-    accessToken = data.token;
-    sessionSerial = data.serial;
-    localStorage.setItem("parara_access_token", accessToken);
-    localStorage.setItem("parara_serial", sessionSerial);
-    applyAccessState(true);
-    setAccessHint(`Akses aktif untuk serial ${sessionSerial}.`, "success");
-    setFeedback("Access checker aktif. Anda bisa mulai menggunakan editor.", "success");
-  } catch (error) {
-    applyAccessState(false);
-    setAccessHint(error.message || "Gagal memvalidasi serial number.", "error");
-  } finally {
-    if (!isAuthenticated) {
-      loginButton.disabled = false;
-    }
-  }
-}
-
-async function logoutAccess() {
-  if (!accessToken) {
-    applyAccessState(false);
-    return;
-  }
-
-  logoutButton.disabled = true;
-  setFeedback("Memproses logout akses serial...");
-
-  try {
-    await fetch("/auth/logout", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
-    });
-  } catch (_error) {
-    // Cleanup local session even if server is unreachable.
-  } finally {
-    accessToken = "";
-    sessionSerial = "";
-    localStorage.removeItem("parara_access_token");
-    localStorage.removeItem("parara_serial");
-    applyAccessState(false);
-    setAccessHint("Akses ditutup. Serial sekarang bisa dipakai perangkat/IP lain.");
-    setFeedback("Logout akses selesai.", "success");
-  }
-}
-
-async function restoreAccessSession() {
-  if (!accessToken) {
-    applyAccessState(false);
-    setAccessHint("Akses belum aktif.");
-    return;
-  }
-
-  setAccessHint("Memeriksa sesi akses...");
-
-  try {
-    const response = await fetch("/auth/session", {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
-    });
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.error || "Sesi akses tidak valid.");
-    }
-
-    sessionSerial = data.serial || sessionSerial;
-    applyAccessState(true);
-    setAccessHint(`Sesi aktif: ${sessionSerial}.`, "success");
-  } catch (_error) {
-    accessToken = "";
-    sessionSerial = "";
-    localStorage.removeItem("parara_access_token");
-    localStorage.removeItem("parara_serial");
-    applyAccessState(false);
-    setAccessHint("Sesi akses habis. Login ulang serial number.", "error");
   }
 }
 
@@ -343,11 +249,9 @@ modeButtons.forEach((button) => {
   button.addEventListener("click", () => setMode(button.dataset.mode));
 });
 
-strengthInput.addEventListener("input", () => {
-  strengthValue.textContent = strengthInput.value;
-});
-
 sourceText.addEventListener("input", updateInputMeta);
+keywordsInput.addEventListener("input", updateKeywordMeta);
+strengthInput.addEventListener("input", updateStrengthMeta);
 submitButton.addEventListener("click", paraphraseText);
 clearButton.addEventListener("click", resetWorkspace);
 copyButton.addEventListener("click", copyResult);
@@ -355,18 +259,16 @@ copyButton.addEventListener("click", copyResult);
 fillExampleButton.addEventListener("click", () => {
   sourceText.value = EXAMPLE_TEXT;
   keywordsInput.value = "pengguna, sistem";
+  strengthInput.value = "5";
   updateInputMeta();
+  updateKeywordMeta();
+  updateStrengthMeta();
   setFeedback("Contoh input telah diisikan. Anda bisa langsung menjalankan paraphrase.");
-});
-loginButton.addEventListener("click", activateAccess);
-logoutButton.addEventListener("click", logoutAccess);
-serialInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter" && !isAuthenticated) {
-    activateAccess();
-  }
 });
 
 updateInputMeta();
+updateKeywordMeta();
+updateStrengthMeta();
 renderTechniques([]);
 checkHealth();
-restoreAccessSession();
+setFeedback("Parara open source siap digunakan. Masukkan teks untuk mulai paraphrase.", "success");

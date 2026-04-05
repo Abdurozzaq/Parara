@@ -3,27 +3,6 @@ const request = require("supertest");
 const app = require("../src/app");
 
 describe("Parara API", () => {
-  let accessToken = "";
-
-  beforeAll(async () => {
-    const loginResponse = await request(app).post("/auth/login").send({
-      serial: "PARARA-DEMO-001",
-    });
-
-    expect(loginResponse.statusCode).toBe(200);
-    accessToken = loginResponse.body.token;
-  });
-
-  afterAll(async () => {
-    if (!accessToken) {
-      return;
-    }
-
-    await request(app)
-      .post("/auth/logout")
-      .set("Authorization", `Bearer ${accessToken}`);
-  });
-
   test("GET /health returns service status", async () => {
     const response = await request(app).get("/health");
 
@@ -34,7 +13,6 @@ describe("Parara API", () => {
   test("POST /paraphrase returns Indonesian paraphrase payload", async () => {
     const response = await request(app)
       .post("/paraphrase")
-      .set("Authorization", `Bearer ${accessToken}`)
       .send({
         text: "Oleh karena itu, sistem ini membantu pengguna menyelesaikan masalah dengan cepat.",
         mode: "formal",
@@ -51,11 +29,10 @@ describe("Parara API", () => {
   test("POST /paraphrase preserves requested keywords", async () => {
     const response = await request(app)
       .post("/paraphrase")
-      .set("Authorization", `Bearer ${accessToken}`)
       .send({
         text: "Platform Parara membantu pengguna meningkatkan kualitas tulisan mereka.",
         mode: "akademik",
-        strength: 5,
+        strength: 8,
         preserve_keywords: ["Parara"],
       });
 
@@ -63,10 +40,46 @@ describe("Parara API", () => {
     expect(response.body.paraphrased).toContain("Parara");
   });
 
+  test("POST /paraphrase accepts the new maximum strength", async () => {
+    const response = await request(app)
+      .post("/paraphrase")
+      .send({
+        text: "Sistem ini membantu pengguna menyusun ulang kalimat dengan hasil yang lebih variatif.",
+        mode: "formal",
+        strength: 8,
+      });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.body.paraphrased).toBeTruthy();
+    expect(typeof response.body.similarity_score).toBe("number");
+  });
+
+  test("POST /paraphrase applies correction pipeline before paraphrasing", async () => {
+    const response = await request(app)
+      .post("/paraphrase")
+      .send({
+        text: "sistim ini gak cepet banget",
+        mode: "formal",
+        strength: 2,
+      });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.body.techniques_used).toEqual(
+      expect.arrayContaining([
+        "text_normalization",
+        "typo_correction",
+        "grammar_fix",
+        "punctuation_fix",
+      ]),
+    );
+    expect(response.body.paraphrased).not.toMatch(/\bsistim\b/i);
+    expect(response.body.paraphrased).not.toMatch(/\bgak\b/i);
+    expect(response.body.paraphrased).not.toMatch(/\bcepet\b/i);
+  });
+
   test("POST /paraphrase validates bad request payloads", async () => {
     const response = await request(app)
       .post("/paraphrase")
-      .set("Authorization", `Bearer ${accessToken}`)
       .send({
         text: "",
         mode: "bebas",

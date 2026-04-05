@@ -3,11 +3,17 @@
 API Express.js untuk paraphrasing teks bahasa Indonesia secara lokal dengan pipeline berlapis:
 
 - normalisasi teks
+- perbaikan typo/ejaan ringan
+- grammar check berbasis rule sederhana
+- perbaikan tanda baca dan kapitalisasi
 - penggantian sinonim Indonesia
 - transformasi struktur kalimat
 - variasi frasa umum
 - penyesuaian gaya bahasa
 - humanization untuk hasil lebih natural
+
+Parara kini berjalan sebagai aplikasi open source gratis tanpa sistem lisensi serial.
+Kredit proyek: [Abdurozzaq Nurul Hadi](https://github.com/Abdurozzaq/Parara).
 
 ## Menjalankan
 
@@ -21,6 +27,8 @@ Server berjalan di `http://localhost:3000`.
 ## Endpoint
 
 ### `POST /paraphrase`
+
+Satu request akan menjalankan correction pipeline lokal terlebih dahulu, lalu meneruskan hasilnya ke engine paraphrase.
 
 Request body:
 
@@ -48,6 +56,10 @@ Contoh respons:
   "original": "Oleh karena itu, sistem ini membantu pengguna menyelesaikan masalah dengan cepat.",
   "paraphrased": "Karena itu, sistem ini mendukung pengguna menyelesaikan kendala dengan segera.",
   "techniques_used": [
+    "text_normalization",
+    "typo_correction",
+    "grammar_fix",
+    "punctuation_fix",
     "synonym_replacement",
     "phrase_expression_variation",
     "style_adjustment_formal",

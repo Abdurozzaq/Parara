@@ -10,173 +10,161 @@
     />
     <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body class="is-locked">
-    <section class="access-gate" id="accessGate">
-      <div class="access-card">
-        <p class="eyebrow">Access Point Checker</p>
-        <h2>Akses Parara</h2>
-        <p class="muted">Masukkan kode khusus/serial number untuk membuka akses aplikasi.</p>
-        <label for="serialInput">Serial Number</label>
-        <input
-          id="serialInput"
-          class="access-input"
-          type="text"
-          placeholder="Contoh: PARARA-DEMO-001"
-          autocomplete="off"
-        />
-        <button class="primary-button access-button" id="loginButton" type="button">Masuk</button>
-        <p class="access-hint" id="accessHint">Akses belum aktif.</p>
-      </div>
-    </section>
-
+  <body>
     <div class="app-shell">
-      <aside class="sidebar">
-        <div class="brand">
-          <div class="brand-mark">P</div>
-          <div>
-            <p class="brand-label">Parara</p>
-            <h1>Paraphrase</h1>
-          </div>
-        </div>
-
-        <div class="sidebar-card">
-          <p class="eyebrow">Menu</p>
-          <h2>Pengaturan</h2>
-          <p class="muted">Atur mode, strength, dan kata kunci.</p>
-          <p class="sidebar-admin-link">
-            <a class="admin-link" href="/admin.html">Superadmin — kelola serial</a>
-          </p>
-        </div>
-
-        <div class="sidebar-card">
-          <p class="eyebrow">Fitur</p>
-          <ul class="feature-list">
-            <li>Paraphrase teks</li>
-            <li>Mode bahasa</li>
-            <li>Preserve keywords</li>
-            <li>Copy hasil</li>
-          </ul>
-        </div>
-
-        <div class="sidebar-card sidebar-note">
-          <p class="eyebrow">Catatan</p>
-          <p class="muted">Masukkan teks, lalu klik parafrase.</p>
-        </div>
-      </aside>
-
-      <main class="workspace">
-        <section class="topbar">
-          <div>
-            <p class="eyebrow">Parara</p>
-            <h2>Editor Paraphrase</h2>
-          </div>
-          <div class="topbar-actions">
-            <span class="status-pill" id="apiStatus">API ready</span>
-            <button class="ghost-button" id="logoutButton" type="button" disabled>Logout serial</button>
-            <button class="ghost-button" id="fillExampleButton" type="button">Isi contoh</button>
-          </div>
-        </section>
-
-        <section class="controls-panel">
-          <div class="field">
-            <label for="mode">Mode Bahasa</label>
-            <div class="segmented-control" id="modeGroup">
-              <button class="segment is-active" data-mode="formal" type="button">Formal</button>
-              <button class="segment" data-mode="santai" type="button">Santai</button>
-              <button class="segment" data-mode="akademik" type="button">Akademik</button>
+      <div class="app-frame">
+        <header class="window-bar">
+          <div class="brand">
+            <div class="brand-mark">P</div>
+            <div>
+              <p class="brand-label">Parara</p>
+              <h1>Indonesian Paraphrase Tool</h1>
             </div>
           </div>
 
-          <div class="field strength-field">
-            <label for="strength">Strength</label>
-            <div class="range-row">
-              <input id="strength" type="range" min="1" max="5" value="4" />
-              <div class="range-value">
-                <strong id="strengthValue">4</strong>
-                <span>/ 5</span>
+          <div class="window-actions">
+            <span class="status-pill" id="apiStatus">Checking API...</span>
+            <button class="ghost-button" id="fillExampleButton" type="button">ISI CONTOH TEKS</button>
+          </div>
+        </header>
+
+        <main class="desktop-layout">
+          <section class="workspace-panel">
+            <div class="hero-panel">
+              <div class="hero-stats">
+                <div class="summary-tile">
+                  <span class="summary-label">Input</span>
+                  <strong id="inputMeta">0 karakter</strong>
+                </div>
+                <div class="summary-tile">
+                  <span class="summary-label">Output</span>
+                  <strong id="outputMeta">Belum ada hasil</strong>
+                </div>
+                <div class="summary-tile">
+                  <span class="summary-label">Similarity</span>
+                  <strong><span id="similarityScore">-</span>%</strong>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="field keyword-field">
-            <label for="keywords">Preserve Keywords</label>
-            <input
-              id="keywords"
-              type="text"
-              placeholder="Contoh: pengguna, AI, sistem"
-              autocomplete="off"
-            />
-            <small>Pisahkan dengan koma untuk menjaga istilah tertentu tetap sama.</small>
-          </div>
-        </section>
+            <section class="editor-grid">
+              <article class="editor-card">
+                <div class="editor-header">
+                  <div>
+                    <p class="editor-label">Input</p>
+                    <h3>Teks asli</h3>
+                  </div>
+                  <span class="meta-chip">Siap diedit</span>
+                </div>
 
-        <section class="editor-grid">
-          <article class="editor-card">
-            <div class="editor-header">
-              <div>
-                <p class="editor-label">Input</p>
-                <h3>Teks asli</h3>
+                <textarea
+                  id="sourceText"
+                  class="editor-textarea"
+                  placeholder="Tulis teks yang ingin diparafrase di sini..."
+                ></textarea>
+              </article>
+
+              <article class="editor-card output-card">
+                <div class="editor-header">
+                  <div>
+                    <p class="editor-label">Output</p>
+                    <h3>Hasil paraphrase</h3>
+                  </div>
+                  <button class="ghost-button compact-button" id="copyButton" type="button" disabled>
+                    Copy hasil
+                  </button>
+                </div>
+
+                <div class="result-box" id="resultBox">
+                  <p class="placeholder-text">
+                    Hasil paraphrase akan muncul di sini setelah proses dijalankan.
+                  </p>
+                </div>
+              </article>
+            </section>
+
+            <div class="action-bar">
+              <div class="live-metrics">
+                <span class="mini-pill" id="liveWordCount">0 kata</span>
+                <span class="mini-pill" id="liveKeywordCount">0 keyword</span>
+                <span class="mini-pill" id="liveReadingTime">0 menit baca</span>
               </div>
-              <span class="meta-chip" id="inputMeta">0 karakter</span>
-            </div>
 
-            <textarea
-              id="sourceText"
-              class="editor-textarea"
-              placeholder="Tulis teks yang ingin diparafrase di sini..."
-            ></textarea>
-
-            <div class="editor-actions">
-              <button class="primary-button" id="submitButton" type="button">Parafrase sekarang</button>
-              <button class="ghost-button" id="clearButton" type="button">Reset</button>
-            </div>
-          </article>
-
-          <article class="editor-card output-card">
-            <div class="editor-header">
-              <div>
-                <p class="editor-label">Output</p>
-                <h3>Hasil paraphrase</h3>
+              <div class="editor-actions">
+                <button class="ghost-button" id="clearButton" type="button">Reset</button>
+                <button class="primary-button" id="submitButton" type="button">Parafrase sekarang</button>
               </div>
-              <span class="meta-chip" id="outputMeta">Belum ada hasil</span>
             </div>
+          </section>
 
-            <div class="result-box" id="resultBox">
-              <p class="placeholder-text">
-                Hasil paraphrase akan muncul di sini setelah proses dijalankan.
+          <aside class="inspector-panel">
+            <section class="inspector-card">
+              <p class="eyebrow">Mode Bahasa</p>
+              <h3 class="panel-title">Pilih tone hasil</h3>
+              <div class="segmented-control" id="modeGroup">
+                <button class="segment is-active" data-mode="formal" type="button">Formal</button>
+                <button class="segment" data-mode="santai" type="button">Santai</button>
+                <button class="segment" data-mode="akademik" type="button">Akademik</button>
+              </div>
+            </section>
+
+            <section class="inspector-card">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Strength</p>
+                  <h3 class="panel-title">Intensitas paraphrase</h3>
+                </div>
+                <div class="range-value">
+                  <strong id="strengthValue">5</strong>
+                  <span>/ 8</span>
+                </div>
+              </div>
+
+              <input id="strength" type="range" min="1" max="8" value="5" />
+              <div class="range-scale" aria-hidden="true">
+                <span>Halus</span>
+                <span>Seimbang</span>
+                <span>Agresif</span>
+              </div>
+              <p class="muted" id="strengthHint">
+                Level 5 cocok untuk perubahan yang cukup terasa tapi masih aman dibaca natural.
               </p>
-            </div>
+            </section>
 
-            <div class="result-toolbar">
-              <button class="ghost-button" id="copyButton" type="button" disabled>Copy hasil</button>
-            </div>
-          </article>
-        </section>
+            <section class="inspector-card keyword-field">
+              <p class="eyebrow">Preserve Keywords</p>
+              <h3 class="panel-title">Jaga istilah penting tetap utuh</h3>
+              <input
+                id="keywords"
+                type="text"
+                placeholder="Contoh: pengguna, AI, sistem"
+                autocomplete="off"
+              />
+              <small>Pisahkan dengan koma untuk menjaga istilah tertentu tetap sama.</small>
+            </section>
 
-        <section class="insight-grid">
-          <article class="insight-card">
-            <p class="eyebrow">Similarity Score</p>
-            <div class="score-row">
-              <strong id="similarityScore">-</strong>
-              <span>%</span>
-            </div>
-            <p class="muted">Nilai kemiripan antara input dan output.</p>
-          </article>
+            <section class="inspector-card">
+              <p class="eyebrow">Teknik Digunakan</p>
+              <h3 class="panel-title">Transformasi aktif</h3>
+              <div class="tag-list" id="techniquesList">
+                <span class="tag muted-tag">Belum ada data</span>
+              </div>
+            </section>
 
-          <article class="insight-card">
-            <p class="eyebrow">Teknik Digunakan</p>
-            <div class="tag-list" id="techniquesList">
-              <span class="tag muted-tag">Belum ada data</span>
-            </div>
-          </article>
-        </section>
-
-        <section class="feedback-panel">
-          <div class="feedback-message" id="feedbackMessage">
-            Siap digunakan. Masukkan teks untuk memulai proses paraphrase.
-          </div>
-        </section>
-      </main>
+            <section class="inspector-card note-card">
+              <p class="eyebrow" style="margin-bottom: 0px;">Credits</p>
+              <p class="muted" style="margin-bottom: 0px; margin-top: 0px;">
+                Parara bebas dipakai dan dibagikan. 
+                <br>
+                Created by Abdurozzaq Nurul Hadi.
+              </p>
+              <a class="admin-link" href="https://github.com/Abdurozzaq/Parara" target="_blank" rel="noreferrer">
+                Lihat Source Code
+              </a>
+            </section>
+          </aside>
+        </main>
+      </div>
     </div>
 
     <script src="/app.js" defer></script>
