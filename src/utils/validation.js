@@ -5,7 +5,8 @@ function createHttpError(message, statusCode = 400) {
 }
 
 function validateParaphraseRequest(req, _res, next) {
-  const { text, mode = "formal", strength = 3, preserve_keywords: preserveKeywords = [] } = req.body || {};
+  const body = req.body || {};
+  const { text, mode = "formal", preserve_keywords: preserveKeywords = [] } = body;
 
   if (typeof text !== "string" || !text.trim()) {
     return next(createHttpError("Field 'text' wajib berupa string yang tidak kosong."));
@@ -15,8 +16,20 @@ function validateParaphraseRequest(req, _res, next) {
     return next(createHttpError("Field 'mode' harus bernilai formal, santai, atau akademik."));
   }
 
-  if (!Number.isInteger(strength) || strength < 1 || strength > 8) {
-    return next(createHttpError("Field 'strength' harus berupa integer antara 1 sampai 8."));
+  if ("bypass_ai_detector" in body && typeof body.bypass_ai_detector !== "boolean") {
+    return next(createHttpError("Field 'bypass_ai_detector' harus berupa boolean."));
+  }
+
+  const bypassAiDetector = body.bypass_ai_detector === true;
+
+  let strength;
+  if (bypassAiDetector) {
+    strength = 4;
+  } else {
+    strength = body.strength ?? 3;
+    if (!Number.isInteger(strength) || strength < 1 || strength > 8) {
+      return next(createHttpError("Field 'strength' harus berupa integer antara 1 sampai 8."));
+    }
   }
 
   if (!Array.isArray(preserveKeywords) || preserveKeywords.some((item) => typeof item !== "string")) {
@@ -28,6 +41,7 @@ function validateParaphraseRequest(req, _res, next) {
     mode,
     strength,
     preserve_keywords: [...new Set(preserveKeywords.map((keyword) => keyword.trim()).filter(Boolean))],
+    ...(bypassAiDetector ? { bypass_ai_detector: true } : {}),
   };
 
   return next();

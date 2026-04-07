@@ -115,7 +115,28 @@
               </div>
             </section>
 
-            <section class="inspector-card">
+            <section class="inspector-card bypass-card">
+              <div class="toggle-row">
+                <div>
+                  <p class="eyebrow">Anti-deteksi</p>
+                  <h3 class="panel-title">Bypass AI detector</h3>
+                </div>
+                <label class="switch">
+                  <input
+                    type="checkbox"
+                    id="bypassAiDetector"
+                    autocomplete="off"
+                    aria-label="Bypass AI detector: kunci intensitas ke level 4"
+                  />
+                  <span class="switch-slider" aria-hidden="true"></span>
+                </label>
+              </div>
+              <p class="muted bypass-hint" id="bypassHint">
+                Nonaktifkan: atur intensitas bebas (1–8). Aktifkan: intensitas dikunci ke level 4 (disarankan agar pola tidak terlalu agresif).
+              </p>
+            </section>
+
+            <section class="inspector-card" id="strengthInspectorCard">
               <div class="panel-head">
                 <div>
                   <p class="eyebrow">Strength</p>

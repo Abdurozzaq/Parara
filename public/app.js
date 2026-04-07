@@ -17,6 +17,9 @@ const liveWordCount = document.getElementById("liveWordCount");
 const liveKeywordCount = document.getElementById("liveKeywordCount");
 const liveReadingTime = document.getElementById("liveReadingTime");
 const strengthHint = document.getElementById("strengthHint");
+const strengthInspectorCard = document.getElementById("strengthInspectorCard");
+const bypassAiDetectorInput = document.getElementById("bypassAiDetector");
+const bypassHint = document.getElementById("bypassHint");
 const modeButtons = Array.from(document.querySelectorAll("[data-mode]"));
 
 const EXAMPLE_TEXT =
@@ -24,6 +27,8 @@ const EXAMPLE_TEXT =
 
 let selectedMode = "formal";
 let latestResult = "";
+let strengthBeforeBypass = 5;
+const BYPASS_STRENGTH = 4;
 const strengthDescriptions = {
   1: "Level 1 menjaga struktur tetap sangat dekat dengan teks asli.",
   2: "Level 2 memberi perubahan ringan untuk hasil yang tetap familiar.",
@@ -72,7 +77,36 @@ function updateKeywordMeta() {
 function updateStrengthMeta() {
   const currentStrength = Number(strengthInput.value);
   strengthValue.textContent = String(currentStrength);
-  strengthHint.textContent = strengthDescriptions[currentStrength] || strengthDescriptions[5];
+  if (bypassAiDetectorInput.checked) {
+    strengthHint.textContent =
+      "Mode bypass: intensitas dikunci ke level 4 agar variasi teks tidak terlalu agresif.";
+  } else {
+    strengthHint.textContent = strengthDescriptions[currentStrength] || strengthDescriptions[5];
+  }
+}
+
+function applyBypassUiState() {
+  const on = bypassAiDetectorInput.checked;
+  strengthInspectorCard.classList.toggle("strength-locked", on);
+  strengthInput.disabled = on;
+  if (on) {
+    strengthInput.value = String(BYPASS_STRENGTH);
+  }
+  updateStrengthMeta();
+}
+
+function setBypassAiDetector(on) {
+  if (on && !bypassAiDetectorInput.checked) {
+    strengthBeforeBypass = Number.parseInt(strengthInput.value, 10);
+    if (!Number.isFinite(strengthBeforeBypass) || strengthBeforeBypass < 1 || strengthBeforeBypass > 8) {
+      strengthBeforeBypass = 5;
+    }
+  }
+  bypassAiDetectorInput.checked = on;
+  if (!on) {
+    strengthInput.value = String(strengthBeforeBypass);
+  }
+  applyBypassUiState();
 }
 
 function setApiStatus(label, tone = "default") {
@@ -144,7 +178,8 @@ function setLoadingState(isLoading) {
   fillExampleButton.disabled = isLoading;
   sourceText.disabled = isLoading;
   keywordsInput.disabled = isLoading;
-  strengthInput.disabled = isLoading;
+  strengthInput.disabled = isLoading || bypassAiDetectorInput.checked;
+  bypassAiDetectorInput.disabled = isLoading;
 
   modeButtons.forEach((button) => {
     button.disabled = isLoading;
@@ -182,6 +217,7 @@ async function paraphraseText() {
         mode: selectedMode,
         strength: Number(strengthInput.value),
         preserve_keywords: parseKeywords(keywordsInput.value),
+        ...(bypassAiDetectorInput.checked ? { bypass_ai_detector: true } : {}),
       }),
     });
 
@@ -222,7 +258,8 @@ async function copyResult() {
 function resetWorkspace() {
   sourceText.value = "";
   keywordsInput.value = "";
-  strengthInput.value = "5";
+  strengthBeforeBypass = 5;
+  setBypassAiDetector(false);
   setMode("formal");
   renderResult("");
   renderTechniques([]);
@@ -230,7 +267,6 @@ function resetWorkspace() {
   setFeedback("Workspace direset. Masukkan teks baru untuk memulai.");
   updateInputMeta();
   updateKeywordMeta();
-  updateStrengthMeta();
   sourceText.focus();
 }
 
@@ -256,6 +292,9 @@ modeButtons.forEach((button) => {
 sourceText.addEventListener("input", updateInputMeta);
 keywordsInput.addEventListener("input", updateKeywordMeta);
 strengthInput.addEventListener("input", updateStrengthMeta);
+bypassAiDetectorInput.addEventListener("change", () => {
+  setBypassAiDetector(bypassAiDetectorInput.checked);
+});
 submitButton.addEventListener("click", paraphraseText);
 clearButton.addEventListener("click", resetWorkspace);
 copyButton.addEventListener("click", copyResult);
@@ -263,7 +302,12 @@ copyButton.addEventListener("click", copyResult);
 fillExampleButton.addEventListener("click", () => {
   sourceText.value = EXAMPLE_TEXT;
   keywordsInput.value = "pengguna, sistem";
-  strengthInput.value = "5";
+  if (bypassAiDetectorInput.checked) {
+    strengthInput.value = String(BYPASS_STRENGTH);
+  } else {
+    strengthInput.value = "5";
+    strengthBeforeBypass = 5;
+  }
   updateInputMeta();
   updateKeywordMeta();
   updateStrengthMeta();
@@ -272,7 +316,7 @@ fillExampleButton.addEventListener("click", () => {
 
 updateInputMeta();
 updateKeywordMeta();
-updateStrengthMeta();
+applyBypassUiState();
 renderTechniques([]);
 checkHealth();
 setFeedback("Parara open source siap digunakan. Masukkan teks untuk mulai paraphrase.", "success");

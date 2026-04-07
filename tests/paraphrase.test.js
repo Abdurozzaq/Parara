@@ -89,4 +89,41 @@ describe("Parara API", () => {
     expect(response.statusCode).toBe(400);
     expect(response.body.error).toBeTruthy();
   });
+
+  test("POST /paraphrase forces strength 4 when bypass_ai_detector is true", async () => {
+    const text = "Oleh karena itu, sistem ini membantu pengguna menyelesaikan masalah dengan cepat.";
+    const withBypass = await request(app)
+      .post("/paraphrase")
+      .send({
+        text,
+        mode: "formal",
+        strength: 8,
+        bypass_ai_detector: true,
+      });
+    const withoutBypass = await request(app)
+      .post("/paraphrase")
+      .send({
+        text,
+        mode: "formal",
+        strength: 4,
+      });
+
+    expect(withBypass.statusCode).toBe(200);
+    expect(withoutBypass.statusCode).toBe(200);
+    expect(withBypass.body.paraphrased).toEqual(withoutBypass.body.paraphrased);
+  });
+
+  test("POST /paraphrase rejects non-boolean bypass_ai_detector", async () => {
+    const response = await request(app)
+      .post("/paraphrase")
+      .send({
+        text: "Teks contoh untuk uji validasi.",
+        mode: "formal",
+        strength: 4,
+        bypass_ai_detector: "yes",
+      });
+
+    expect(response.statusCode).toBe(400);
+    expect(response.body.error).toBeTruthy();
+  });
 });

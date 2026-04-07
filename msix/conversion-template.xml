@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template untuk MsixPackagingTool.exe create-package (lihat scripts/generate-msix-conversion-template.cjs) -->
+<MsixPackagingToolTemplate xmlns="http://schemas.microsoft.com/appx/msixpackagingtool/template/2018">
+  <Settings
+    AllowTelemetry="false"
+    ApplyAllPrepareComputerFixes="true"
+    AllowPromptForPassword="false" />
+  <SaveLocation PackagePath="__PACKAGE_OUTPUT_MSIX__" TemplatePath="__TEMPLATE_SNAPSHOT_XML__" />
+  <!-- Diganti oleh scripts/generate-msix-conversion-template.cjs -->
+  __INSTALLER_XML__
+  <PackageInformation
+    PackageName="__PACKAGE_NAME__"
+    PackageDisplayName="__PACKAGE_DISPLAY_NAME__"
+    PublisherName="__PUBLISHER_CN__"
+    PublisherDisplayName="__PUBLISHER_DISPLAY__"
+    Version="__VERSION_QUAD__">
+    <Applications>
+      <Application
+        Id="Parara"
+        DisplayName="__PACKAGE_DISPLAY_NAME__"
+        ExecutableName="Parara.exe" />
+    </Applications>
+  </PackageInformation>
+</MsixPackagingToolTemplate>

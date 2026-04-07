@@ -1,9 +1,10 @@
 {
   "name": "parara",
   "version": "1.0.0",
-  "description": "Advanced Indonesian paraphrasing API with layered local transformations",
+  "description": "Advanced Indonesian paraphrasing Application with layered local transformations",
   "main": "electron/main.js",
   "scripts": {
+    "postinstall": "node scripts/patch-app-builder-win-7z.cjs",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand",
@@ -11,10 +12,23 @@
     "generate:icon": "node scripts/generate-icon.js",
     "desktop:dev": "electron .",
     "desktop:start": "electron .",
-    "desktop:dist": "electron-builder --win nsis"
+    "desktop:dist": "electron-builder --win nsis",
+    "desktop:dist:signed": "dotenv -e .env -- electron-builder --win nsis",
+    "desktop:dist:unsigned": "electron-builder --win nsis --config electron-builder.unsigned.cjs",
+    "desktop:portable": "electron-builder --win portable --config electron-builder.portable.cjs",
+    "desktop:portable:signed": "dotenv -e .env -- electron-builder --win portable --config electron-builder.portable.cjs",
+    "desktop:unpack": "electron-builder --win --config electron-builder.unpack.cjs",
+    "desktop:unpack:signed": "dotenv -e .env -- electron-builder --win --config electron-builder.unpack.cjs",
+    "desktop:msix:template": "node scripts/generate-msix-conversion-template.cjs",
+    "desktop:msix": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/msix-packaging.ps1",
+    "desktop:msix:full": "npm run desktop:dist:unsigned && npm run desktop:msix:template && npm run desktop:msix",
+    "desktop:msix:full:signed": "npm run desktop:dist:signed && npm run desktop:msix:template && npm run desktop:msix",
+    "desktop:verify-signature": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify-windows-signature.ps1"
   },
   "keywords": [],
-  "author": "Abdurozzaq Nurul Hadi",
+  "author": {
+    "name": "Abdurozzaq Nurul Hadi"
+  },
   "license": "ISC",
   "type": "commonjs",
   "jest": {
@@ -34,6 +48,7 @@
   },
   "devDependencies": {
     "electron": "^37.10.3",
+    "dotenv-cli": "^8.0.0",
     "electron-builder": "^26.8.1",
     "jest": "^30.3.0",
     "nodemon": "^3.1.14",
@@ -42,8 +57,12 @@
     "to-ico": "^1.1.5"
   },
   "build": {
+    "toolsets": {
+      "winCodeSign": "1.1.0"
+    },
     "appId": "com.parara.desktop",
     "productName": "Parara",
+    "copyright": "Copyright © 2026 Abdurozzaq Nurul Hadi",
     "icon": "assets/parara.ico",
     "directories": {
       "output": "dist"
@@ -63,11 +82,12 @@
       ],
       "artifactName": "${productName}-Setup-${version}.${ext}",
       "icon": "assets/parara.ico",
-      "signAndEditExecutable": false
+      "legalTrademarks": "Parara"
     },
     "nsis": {
       "oneClick": false,
-      "allowToChangeInstallationDirectory": true
+      "allowToChangeInstallationDirectory": true,
+      "uninstallDisplayName": "Parara - Indonesian paraphrasing (desktop, v${version})"
     }
   }
 }
