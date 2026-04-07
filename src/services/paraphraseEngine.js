@@ -15,6 +15,18 @@ const {
   humanizeText,
 } = require("./styleEngine");
 
+const TECHNIQUES_ALWAYS_USED = [
+  "text_normalization",
+  "typo_correction",
+  "grammar_fix",
+  "punctuation_fix",
+  "synonym_replacement",
+  "sentence_structure_transformation",
+  "phrase_expression_variation",
+  "style_adjustment",
+  "humanization",
+];
+
 function createCandidate(text, originalText, techniquesUsed) {
   return {
     text,
@@ -129,7 +141,10 @@ async function paraphrase({ text, mode, strength, preserve_keywords: preserveKey
   return {
     original: text,
     paraphrased: bestCandidate.text,
-    techniques_used: bestCandidate.techniquesUsed,
+    // Keep techniques_used stable for UI readability: always list the full pipeline.
+    techniques_used: TECHNIQUES_ALWAYS_USED,
+    // For debugging/inspection, expose which ones actually changed the text.
+    techniques_applied: bestCandidate.techniquesUsed,
     similarity_score: bestCandidate.similarityScore,
   };
 }
