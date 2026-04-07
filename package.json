@@ -27,7 +27,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Abdurozzaq Nurul Hadi"
+    "name": "Rozzaq"
   },
   "license": "ISC",
   "type": "commonjs",
@@ -62,7 +62,7 @@
     },
     "appId": "com.parara.desktop",
     "productName": "Parara",
-    "copyright": "Copyright © 2026 Abdurozzaq Nurul Hadi",
+    "copyright": "Copyright © 2026 Rozzaq",
     "icon": "assets/parara.ico",
     "directories": {
       "output": "dist"
