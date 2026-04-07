@@ -87,7 +87,7 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "uninstallDisplayName": "Parara - Indonesian paraphrasing (desktop, v${version})"
+      "uninstallDisplayName": "Parara"
     }
   }
 }
