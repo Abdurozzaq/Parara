@@ -27,7 +27,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Rozzaq"
+    "name": "Abdurozzaq Nurul Hadi"
   },
   "license": "ISC",
   "type": "commonjs",
@@ -60,9 +60,9 @@
     "toolsets": {
       "winCodeSign": "1.1.0"
     },
-    "appId": "com.parara.desktop",
-    "productName": "Parara",
-    "copyright": "Copyright © 2026 Rozzaq",
+    "appId": "com.pararaindonesiaku.app",
+    "productName": "Parara - Indonesian Paraphrasing Tool",
+    "copyright": "Copyright © 2026 Abdurozzaq Nurul Hadi",
     "icon": "assets/parara.ico",
     "directories": {
       "output": "dist"
