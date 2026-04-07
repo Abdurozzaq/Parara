@@ -87,7 +87,7 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "uninstallDisplayName": "Parara"
+      "uninstallDisplayName": "Parara - Open Source Indonesian Paraphrasing Tool"
     }
   }
 }
